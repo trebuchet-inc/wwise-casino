@@ -1,0 +1,7 @@
+# Wwise
+*.akd
+WwiseUnityIntegration_Mac_Src\.zip
+WwiseUnityIntegration_Windows_Src\.zip
+*.validationcache
+*.wsettings
+WWise/\.cache/
