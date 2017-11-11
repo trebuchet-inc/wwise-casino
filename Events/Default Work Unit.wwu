@@ -1,6 +1,225 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" SchemaVersion="80">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Axe_hit" ID="{2148E380-5A56-4EA6-BFDF-24B308E34FBA}">
+					<ChildrenList>
+						<Action Name="" ID="{59F878C9-1501-47C1-9EB7-D6B43BD9465E}" ShortID="604075769">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Axe_hit" ID="{1CECAC59-62EB-47B4-8639-AE3D812B5D8A}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Axe_miss" ID="{8BD9E59B-ABF9-4523-8FA4-5021002BDF13}">
+					<ChildrenList>
+						<Action Name="" ID="{9DD07386-87EC-4901-846C-020C2E1F8254}" ShortID="601817235">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Axe_miss" ID="{C4DB08FE-2DAE-4598-B0E5-EF633DDBB21E}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Flail_hit" ID="{BB20C573-36EB-48EB-BF2A-418AF317350B}">
+					<ChildrenList>
+						<Action Name="" ID="{695C25DD-5673-4E1F-AE65-3913CC8DB099}" ShortID="722703231">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Flail_hit" ID="{DD8C93A2-09E0-4EFD-9C2D-F3D0FBFE82A1}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Flail_miss" ID="{936975BC-7F58-4BD2-9885-A04F51BA0F46}">
+					<ChildrenList>
+						<Action Name="" ID="{4E5D94A5-7F2C-4768-B3BE-D94EAF48DBA2}" ShortID="331127184">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Flail_miss" ID="{C0D0AA5D-0B04-40D3-9E0F-35B4FAC45E14}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Lance_hit" ID="{1F8ABB51-E4DB-4AC6-AAA0-F1B69A8B6CD0}">
+					<ChildrenList>
+						<Action Name="" ID="{C3EE2143-220C-4ECF-B30C-189FD8E6180C}" ShortID="329328008">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lance_hit" ID="{9D312165-4CCA-46AC-9412-B69EED3A17EF}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Lance_miss" ID="{1CB1B625-3E65-4CCB-BD93-425659EC2750}">
+					<ChildrenList>
+						<Action Name="" ID="{873B4309-9AC9-467E-A8C3-1E4FC2CF1933}" ShortID="1056034743">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lance_miss" ID="{E4489F5B-840F-4AF9-AA5F-4EA761DFFA00}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Helm_Down" ID="{86023735-AFA2-4D7A-9604-2A3B3F5B242B}">
+					<ChildrenList>
+						<Action Name="" ID="{FE811FFD-ABAE-4458-A617-A4577C964939}" ShortID="743770771">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Helm_Down" ID="{0DDB3848-3B4F-4BB5-A5AF-FB63E6F7C736}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Weapon_Selected" ID="{D25228E3-53AF-429F-93A3-20AB3035F917}">
+					<ChildrenList>
+						<Action Name="" ID="{0B4CE701-9988-4737-B494-54F02A721322}" ShortID="665667194">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Weapon_Selected" ID="{D752C987-7413-4249-B795-FEA8E7FA292B}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Horse_Rocking" ID="{11FACB8E-5EA7-4889-AB71-3996349344FE}">
+					<ChildrenList>
+						<Action Name="" ID="{283C15B6-20D7-4CB8-85A0-1E6F1A9F371A}" ShortID="724431628">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Horse_Rocking" ID="{29790861-9BEA-498A-BEB9-4E5C57078B46}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Crowd_Deception" ID="{90E06D96-9F4E-46DF-A862-44802C9A2DCD}">
+					<ChildrenList>
+						<Action Name="" ID="{21CDFF0B-28EF-4841-BFBC-DF4373633A1E}" ShortID="279808174">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crowd_Deception" ID="{F61D0B61-48FA-4CCB-93FF-C393E91F482A}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Crowd_Extatic" ID="{28A6A116-AA61-4EEC-B1C7-632E383458B1}">
+					<ChildrenList>
+						<Action Name="" ID="{39BE0C7C-3B25-4D6A-B529-37E5B865B2BA}" ShortID="1031679764">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crowd_Extatic" ID="{A8921A4A-C876-46F0-85CB-7E65C882A739}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Crowd_GetHyped" ID="{B41195E9-258C-4A2E-872F-0A125A251347}">
+					<ChildrenList>
+						<Action Name="" ID="{DD70414E-8FED-4753-A4F8-C9AE0C5C2D21}" ShortID="764920492">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crowd_GetHyped" ID="{A916EEE1-7C26-439A-A0A8-F017979178F5}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Crowd_Surprise" ID="{5C4864D4-822E-4500-8510-BF6415D72EC7}">
+					<ChildrenList>
+						<Action Name="" ID="{9A78BB5E-2E2A-4319-9596-EDB884E898D7}" ShortID="750709831">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crowd_Surprise" ID="{ABB32D82-DDE4-47B0-93AE-623C4ABBF3AA}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Crowds" ID="{DA956E60-D35E-4BE6-A376-71DAF628DE23}">
+					<ChildrenList>
+						<Action Name="" ID="{9479566B-028C-4F22-92F6-8D9D9215BB6A}" ShortID="743638681">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crowd_Deception" ID="{F61D0B61-48FA-4CCB-93FF-C393E91F482A}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2A7D46C1-4DE7-4347-8F24-BA1227403382}" ShortID="408103098">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crowd_Extatic" ID="{A8921A4A-C876-46F0-85CB-7E65C882A739}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D32C81CD-5627-4CCF-9F46-8AE01D2440DA}" ShortID="21897275">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crowd_GetHyped" ID="{A916EEE1-7C26-439A-A0A8-F017979178F5}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

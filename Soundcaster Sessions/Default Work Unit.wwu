@@ -1,6 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{23A1FF43-78E8-4193-B13A-23A664712ED8}" SchemaVersion="80">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{23A1FF43-78E8-4193-B13A-23A664712ED8}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{23A1FF43-78E8-4193-B13A-23A664712ED8}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{58FB6582-E894-49CB-84BB-7B70CF8B1715}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Axe_hit" ID="{2148E380-5A56-4EA6-BFDF-24B308E34FBA}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Flail_hit" ID="{BB20C573-36EB-48EB-BF2A-418AF317350B}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Lance_hit" ID="{1F8ABB51-E4DB-4AC6-AAA0-F1B69A8B6CD0}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Axe_miss" ID="{8BD9E59B-ABF9-4523-8FA4-5021002BDF13}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Flail_miss" ID="{936975BC-7F58-4BD2-9885-A04F51BA0F46}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Lance_miss" ID="{1CB1B625-3E65-4CCB-BD93-425659EC2750}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Crowd_Deception" ID="{90E06D96-9F4E-46DF-A862-44802C9A2DCD}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Crowd_GetHyped" ID="{B41195E9-258C-4A2E-872F-0A125A251347}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Helm_Down" ID="{86023735-AFA2-4D7A-9604-2A3B3F5B242B}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Crowd_Extatic" ID="{28A6A116-AA61-4EEC-B1C7-632E383458B1}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Crowd_Surprise" ID="{5C4864D4-822E-4500-8510-BF6415D72EC7}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Horse_Rocking" ID="{11FACB8E-5EA7-4889-AB71-3996349344FE}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
