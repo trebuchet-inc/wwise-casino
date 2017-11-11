@@ -15,6 +15,7 @@
 						<ObjectRef Name="Play_Flail_hit" ID="{BB20C573-36EB-48EB-BF2A-418AF317350B}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Horse_Rocking" ID="{29790861-9BEA-498A-BEB9-4E5C57078B46}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Crowd_GetHyped" ID="{B41195E9-258C-4A2E-872F-0A125A251347}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Ambience" ID="{25BE3728-2716-4AC4-8D93-53F9F373E866}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Lance_hit" ID="{1F8ABB51-E4DB-4AC6-AAA0-F1B69A8B6CD0}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Helm_Down" ID="{0DDB3848-3B4F-4BB5-A5AF-FB63E6F7C736}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Flail_miss" ID="{936975BC-7F58-4BD2-9885-A04F51BA0F46}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
@@ -22,6 +23,7 @@
 						<ObjectRef Name="Play_Lance_miss" ID="{1CB1B625-3E65-4CCB-BD93-425659EC2750}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Helm_Down" ID="{86023735-AFA2-4D7A-9604-2A3B3F5B242B}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Axe_hit" ID="{2148E380-5A56-4EA6-BFDF-24B308E34FBA}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Ambiance" ID="{5F24F4B9-FF4A-4EB1-AECD-F872197008C6}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Crowd_Extatic" ID="{28A6A116-AA61-4EEC-B1C7-632E383458B1}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Weapons" ID="{9DD9F64C-AF94-4F6D-9E83-9E04880F1E1D}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Default Work Unit" ID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}" Filter="7" Origin="Manual"/>

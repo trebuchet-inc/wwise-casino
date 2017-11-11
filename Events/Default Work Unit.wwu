@@ -219,6 +219,114 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Ambiance" ID="{5F24F4B9-FF4A-4EB1-AECD-F872197008C6}">
+					<ChildrenList>
+						<Action Name="" ID="{AF13FDB4-B34C-472F-B42F-30C25F0C2CC3}" ShortID="618705982">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience_Birds" ID="{1C5267BE-2F75-491B-83E8-4F8FB37140E8}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{766DB0E1-C807-47EB-B279-42DA8EB65B2F}" ShortID="945452361">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience_Flags" ID="{555DDE1A-8523-4FD8-9D17-FFB17C2CEF4A}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E96A421A-7B79-415B-9794-647CF2B6E257}" ShortID="963373281">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience_MaleCrowd" ID="{BFF1A699-AE4B-4E14-961A-E0CE474D0FD7}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{15CB1155-763D-40D0-B79A-A7DA9CB53264}" ShortID="581683124">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience_Park" ID="{9CC6802D-FCD0-4E15-8F8B-66459A3FAE18}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{AA976B51-B344-4E47-BC2D-F3780A01DD4E}" ShortID="899242637">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience_Wind" ID="{C4DE7040-FF28-4C23-9503-17C6A78A129B}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Ambiance" ID="{CCBA4B83-8CFA-4695-80FF-29848A88410C}">
+					<ChildrenList>
+						<Action Name="" ID="{4B15B273-F535-4834-94BC-058A7C0AC4CA}" ShortID="679831922">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience_Birds" ID="{1C5267BE-2F75-491B-83E8-4F8FB37140E8}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{85643D7B-AD0A-424D-A8C0-6E08FBA91281}" ShortID="633361579">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience_Flags" ID="{555DDE1A-8523-4FD8-9D17-FFB17C2CEF4A}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CCD148C1-9636-458E-B033-995E2D8F5180}" ShortID="161881208">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience_MaleCrowd" ID="{BFF1A699-AE4B-4E14-961A-E0CE474D0FD7}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EB4A46B9-C358-4FC1-B187-04FECC2C7144}" ShortID="631419669">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience_Park" ID="{9CC6802D-FCD0-4E15-8F8B-66459A3FAE18}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CCCF7721-CC5F-48D1-86AD-39CD3B30E3A1}" ShortID="297502404">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience_Wind" ID="{C4DE7040-FF28-4C23-9503-17C6A78A129B}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
