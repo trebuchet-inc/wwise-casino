@@ -21,6 +21,7 @@
 						<ObjectRef Name="Play_Flail_miss" ID="{936975BC-7F58-4BD2-9885-A04F51BA0F46}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Crowds" ID="{DA956E60-D35E-4BE6-A376-71DAF628DE23}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Lance_miss" ID="{1CB1B625-3E65-4CCB-BD93-425659EC2750}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_PlayerKilledTooSoon" ID="{301FBA50-38AE-4D71-9122-A573CDDDBE75}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Helm_Down" ID="{86023735-AFA2-4D7A-9604-2A3B3F5B242B}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Axe_hit" ID="{2148E380-5A56-4EA6-BFDF-24B308E34FBA}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Ambiance" ID="{5F24F4B9-FF4A-4EB1-AECD-F872197008C6}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>

@@ -327,6 +327,30 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_PlayerKilledTooSoon" ID="{301FBA50-38AE-4D71-9122-A573CDDDBE75}">
+					<ChildrenList>
+						<Action Name="" ID="{D5024A05-443A-45EA-9D1F-EFC697983B21}" ShortID="316300096">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Birds_FlyAway" ID="{1B42E726-C8F1-4880-A309-0C314C216104}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9DFE0FAB-EEF4-4C09-8710-0A740F8CC14F}" ShortID="947009598">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crowd_Surprise" ID="{ABB32D82-DDE4-47B0-93AE-623C4ABBF3AA}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
