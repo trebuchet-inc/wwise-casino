@@ -141,6 +141,28 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{E6A667E1-4BBF-4226-B995-6BB8E40C2F0C}" ShortID="432609379">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crowd_Extatic" ID="{A8921A4A-C876-46F0-85CB-7E65C882A739}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4FCA29CB-0C73-4855-8D24-C31A0C7CD80B}" ShortID="435794640">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crowd_GetHyped" ID="{A916EEE1-7C26-439A-A0A8-F017979178F5}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Crowd_Extatic" ID="{28A6A116-AA61-4EEC-B1C7-632E383458B1}">
@@ -155,6 +177,28 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{BD9BF2E1-506C-4BE7-AFFA-3F803FD59B3B}" ShortID="232397952">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crowd_Deception" ID="{F61D0B61-48FA-4CCB-93FF-C393E91F482A}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D56FBA7A-8272-4D4B-82EB-56D1F7BE7E9D}" ShortID="602135104">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crowd_GetHyped" ID="{A916EEE1-7C26-439A-A0A8-F017979178F5}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Crowd_GetHyped" ID="{B41195E9-258C-4A2E-872F-0A125A251347}">
@@ -166,6 +210,28 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Crowd_GetHyped" ID="{A916EEE1-7C26-439A-A0A8-F017979178F5}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C4C79078-B7B3-468A-A81D-9600CD73F5F6}" ShortID="1059106182">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crowd_Extatic" ID="{A8921A4A-C876-46F0-85CB-7E65C882A739}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{520134A3-7C4D-4B6A-B635-3A9A4D20189C}" ShortID="684981252">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crowd_Deception" ID="{F61D0B61-48FA-4CCB-93FF-C393E91F482A}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
