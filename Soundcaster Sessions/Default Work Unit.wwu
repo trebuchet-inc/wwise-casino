@@ -88,7 +88,7 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="End" ID="{8037E171-DEE7-442B-8444-41C6CD10E885}"/>
+						<CurrentStateRef Name="Fight" ID="{83C70D81-6947-43A3-907D-F4342C66F1CF}"/>
 						<CurrentStateRef Name="Crowd_On" ID="{1D10490B-965E-408F-BF20-10661CDB58E8}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
