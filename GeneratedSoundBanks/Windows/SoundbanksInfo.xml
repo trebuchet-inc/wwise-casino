@@ -21,8 +21,10 @@
 			<ShortName>Soundbank</ShortName>
 			<Path>Soundbank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3174479978" Name="Play_Ambiance" ObjectPath="\Events\Default Work Unit\Play_Ambiance"/>
 				<Event Id="1776375684" Name="Play_Axe_hit" ObjectPath="\Events\Default Work Unit\Play_Axe_hit"/>
 				<Event Id="1986109701" Name="Play_Axe_miss" ObjectPath="\Events\Default Work Unit\Play_Axe_miss"/>
+				<Event Id="3926520445" Name="Play_BattleMusic" ObjectPath="\Events\Default Work Unit\Play_BattleMusic"/>
 				<Event Id="3293666249" Name="Play_Crowd_Deception" ObjectPath="\Events\Default Work Unit\Play_Crowd_Deception"/>
 				<Event Id="2618475426" Name="Play_Crowd_Extatic" ObjectPath="\Events\Default Work Unit\Play_Crowd_Extatic"/>
 				<Event Id="2757160520" Name="Play_Crowd_GetHyped" ObjectPath="\Events\Default Work Unit\Play_Crowd_GetHyped"/>
@@ -31,9 +33,15 @@
 				<Event Id="1092160905" Name="Play_Flail_miss" ObjectPath="\Events\Default Work Unit\Play_Flail_miss"/>
 				<Event Id="1605983305" Name="Play_Helm_Down" ObjectPath="\Events\Default Work Unit\Play_Helm_Down"/>
 				<Event Id="84185841" Name="Play_Horse_Rocking" ObjectPath="\Events\Default Work Unit\Play_Horse_Rocking"/>
+				<Event Id="3223684645" Name="Play_Jingle_AllMiss" ObjectPath="\Events\Default Work Unit\Play_Jingle_AllMiss"/>
+				<Event Id="2606865948" Name="Play_Jingle_Start" ObjectPath="\Events\Default Work Unit\Play_Jingle_Start"/>
+				<Event Id="2513009785" Name="Play_Jingle_Success" ObjectPath="\Events\Default Work Unit\Play_Jingle_Success"/>
 				<Event Id="3574353209" Name="Play_Lance_hit" ObjectPath="\Events\Default Work Unit\Play_Lance_hit"/>
 				<Event Id="2977442550" Name="Play_Lance_miss" ObjectPath="\Events\Default Work Unit\Play_Lance_miss"/>
+				<Event Id="2030803885" Name="Play_PlayerKilledTooSoon" ObjectPath="\Events\Default Work Unit\Play_PlayerKilledTooSoon"/>
 				<Event Id="1234332190" Name="Play_Weapon_Selected" ObjectPath="\Events\Default Work Unit\Play_Weapon_Selected"/>
+				<Event Id="2839405212" Name="Stop_Ambiance" ObjectPath="\Events\Default Work Unit\Stop_Ambiance"/>
+				<Event Id="3329728603" Name="Stop_BattleMusic" ObjectPath="\Events\Default Work Unit\Stop_BattleMusic"/>
 				<Event Id="2230898146" Name="Stop_Crowds" ObjectPath="\Events\Default Work Unit\Stop_Crowds"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -44,6 +52,10 @@
 				<File Id="55455432" Language="SFX">
 					<ShortName>Woodhorse_Rocking_4.wav</ShortName>
 					<Path>SFX\Woodhorse_Rocking_4_F17FB28C.wem</Path>
+				</File>
+				<File Id="62949915" Language="SFX">
+					<ShortName>Hastilude_Jingle_START.wav</ShortName>
+					<Path>SFX\Hastilude_Jingle_START_F17FB28C.wem</Path>
 				</File>
 				<File Id="93874347" Language="SFX">
 					<ShortName>SFX_Crowd_Surprise_1.wav</ShortName>
@@ -57,6 +69,10 @@
 					<ShortName>SFX_Axe_Throw_Hit_2.wav</ShortName>
 					<Path>SFX\SFX_Axe_Throw_Hit_2_F17FB28C.wem</Path>
 				</File>
+				<File Id="185087658" Language="SFX">
+					<ShortName>Ambiance_wind_1.wav</ShortName>
+					<Path>SFX\Ambiance_wind_1_F17FB28C.wem</Path>
+				</File>
 				<File Id="185430114" Language="SFX">
 					<ShortName>SFX_Crowd_GetHyped_Mod.wav</ShortName>
 					<Path>SFX\SFX_Crowd_GetHyped_Mod_F17FB28C.wem</Path>
@@ -68,6 +84,14 @@
 				<File Id="264625260" Language="SFX">
 					<ShortName>Woodhorse_Rocking_3.wav</ShortName>
 					<Path>SFX\Woodhorse_Rocking_3_F17FB28C.wem</Path>
+				</File>
+				<File Id="269601022" Language="SFX">
+					<ShortName>Hastilude_Jingle_Success.wav</ShortName>
+					<Path>SFX\Hastilude_Jingle_Success_F17FB28C.wem</Path>
+				</File>
+				<File Id="271322153" Language="SFX">
+					<ShortName>Hastilude_Combat_4.wav</ShortName>
+					<Path>SFX\Hastilude_Combat_4_F17FB28C.wem</Path>
 				</File>
 				<File Id="275591250" Language="SFX">
 					<ShortName>SFX_Crowd_Surprise_5.wav</ShortName>
@@ -89,6 +113,10 @@
 					<ShortName>SFX_Crowd_Surprise_2.wav</ShortName>
 					<Path>SFX\SFX_Crowd_Surprise_2_F17FB28C.wem</Path>
 				</File>
+				<File Id="344332314" Language="SFX">
+					<ShortName>Hastilude_Jingle_AllMiss.wav</ShortName>
+					<Path>SFX\Hastilude_Jingle_AllMiss_F17FB28C.wem</Path>
+				</File>
 				<File Id="413104383" Language="SFX">
 					<ShortName>SFX_Flail_Hit_1.wav</ShortName>
 					<Path>SFX\SFX_Flail_Hit_1_F17FB28C.wem</Path>
@@ -109,9 +137,17 @@
 					<ShortName>SFX_Lance_Hit_4.wav</ShortName>
 					<Path>SFX\SFX_Lance_Hit_4_F17FB28C.wem</Path>
 				</File>
+				<File Id="471808106" Language="SFX">
+					<ShortName>Hastilude_Combat_2.wav</ShortName>
+					<Path>SFX\Hastilude_Combat_2_F17FB28C.wem</Path>
+				</File>
 				<File Id="483608939" Language="SFX">
 					<ShortName>SFX_Crowd_Surprise_4.wav</ShortName>
 					<Path>SFX\SFX_Crowd_Surprise_4_F17FB28C.wem</Path>
+				</File>
+				<File Id="494438839" Language="SFX">
+					<ShortName>Ambiance_Flag_2.wav</ShortName>
+					<Path>SFX\Ambiance_Flag_2_F17FB28C.wem</Path>
 				</File>
 				<File Id="503756771" Language="SFX">
 					<ShortName>SFX_Flail_Miss_3.wav</ShortName>
@@ -133,6 +169,10 @@
 					<ShortName>SFX_Crowd_Surprise_3.wav</ShortName>
 					<Path>SFX\SFX_Crowd_Surprise_3_F17FB28C.wem</Path>
 				</File>
+				<File Id="624092242" Language="SFX">
+					<ShortName>Ambiance_Flag_1.wav</ShortName>
+					<Path>SFX\Ambiance_Flag_1_F17FB28C.wem</Path>
+				</File>
 				<File Id="638878528" Language="SFX">
 					<ShortName>SFX_Lance_Hit_2.wav</ShortName>
 					<Path>SFX\SFX_Lance_Hit_2_F17FB28C.wem</Path>
@@ -145,6 +185,14 @@
 					<ShortName>Woodhorse_Rocking_1.wav</ShortName>
 					<Path>SFX\Woodhorse_Rocking_1_F17FB28C.wem</Path>
 				</File>
+				<File Id="718836665" Language="SFX">
+					<ShortName>Hastilude_Combat_End.wav</ShortName>
+					<Path>SFX\Hastilude_Combat_End_F17FB28C.wem</Path>
+				</File>
+				<File Id="732835788" Language="SFX">
+					<ShortName>Hastilude_Combat_3.wav</ShortName>
+					<Path>SFX\Hastilude_Combat_3_F17FB28C.wem</Path>
+				</File>
 				<File Id="739333911" Language="SFX">
 					<ShortName>SFX_Axe_Throw_Hit_1.wav</ShortName>
 					<Path>SFX\SFX_Axe_Throw_Hit_1_F17FB28C.wem</Path>
@@ -153,9 +201,17 @@
 					<ShortName>SFX_Lance_Miss_2.wav</ShortName>
 					<Path>SFX\SFX_Lance_Miss_2_F17FB28C.wem</Path>
 				</File>
+				<File Id="749497937" Language="SFX">
+					<ShortName>Hastilude_Combat_1.wav</ShortName>
+					<Path>SFX\Hastilude_Combat_1_F17FB28C.wem</Path>
+				</File>
 				<File Id="769109219" Language="SFX">
 					<ShortName>SFX_Axe_Throw_Hit_3.wav</ShortName>
 					<Path>SFX\SFX_Axe_Throw_Hit_3_F17FB28C.wem</Path>
+				</File>
+				<File Id="819325022" Language="SFX">
+					<ShortName>Ambiance_Park_1.wav</ShortName>
+					<Path>SFX\Ambiance_Park_1_F17FB28C.wem</Path>
 				</File>
 				<File Id="898647358" Language="SFX">
 					<ShortName>SFX_Lance_Hit_1.wav</ShortName>
@@ -164,6 +220,18 @@
 				<File Id="985389615" Language="SFX">
 					<ShortName>SFX_Helm_Down.wav</ShortName>
 					<Path>SFX\SFX_Helm_Down_F17FB28C.wem</Path>
+				</File>
+				<File Id="986572489" Language="SFX">
+					<ShortName>Ambiance_bird_1.wav</ShortName>
+					<Path>SFX\Ambiance_bird_1_F17FB28C.wem</Path>
+				</File>
+				<File Id="1009987633" Language="SFX">
+					<ShortName>SFX_BirdsFlyAway.wav</ShortName>
+					<Path>SFX\SFX_BirdsFlyAway_F17FB28C.wem</Path>
+				</File>
+				<File Id="1025398509" Language="SFX">
+					<ShortName>Ambiance_Male_Crowd_1.wav</ShortName>
+					<Path>SFX\Ambiance_Male_Crowd_1_F17FB28C.wem</Path>
 				</File>
 				<File Id="1064535506" Language="SFX">
 					<ShortName>SFX_Axe_Throw_Miss_1.wav</ShortName>

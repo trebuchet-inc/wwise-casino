@@ -6,13 +6,35 @@ Event	ID	Name			Wwise Object Path	Notes
 	1605983305	Play_Helm_Down			\Default Work Unit\Play_Helm_Down	
 	1776375684	Play_Axe_hit			\Default Work Unit\Play_Axe_hit	
 	1986109701	Play_Axe_miss			\Default Work Unit\Play_Axe_miss	
+	2030803885	Play_PlayerKilledTooSoon			\Default Work Unit\Play_PlayerKilledTooSoon	
 	2230898146	Stop_Crowds			\Default Work Unit\Stop_Crowds	
+	2513009785	Play_Jingle_Success			\Default Work Unit\Play_Jingle_Success	
+	2606865948	Play_Jingle_Start			\Default Work Unit\Play_Jingle_Start	
 	2618475426	Play_Crowd_Extatic			\Default Work Unit\Play_Crowd_Extatic	
 	2757160520	Play_Crowd_GetHyped			\Default Work Unit\Play_Crowd_GetHyped	
+	2839405212	Stop_Ambiance			\Default Work Unit\Stop_Ambiance	
 	2846880533	Play_Crowd_Surprise			\Default Work Unit\Play_Crowd_Surprise	
 	2977442550	Play_Lance_miss			\Default Work Unit\Play_Lance_miss	
+	3174479978	Play_Ambiance			\Default Work Unit\Play_Ambiance	
+	3223684645	Play_Jingle_AllMiss			\Default Work Unit\Play_Jingle_AllMiss	
 	3293666249	Play_Crowd_Deception			\Default Work Unit\Play_Crowd_Deception	
+	3329728603	Stop_BattleMusic			\Default Work Unit\Stop_BattleMusic	
 	3574353209	Play_Lance_hit			\Default Work Unit\Play_Lance_hit	
+	3926520445	Play_BattleMusic			\Default Work Unit\Play_BattleMusic	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1263061326	EndFight			\Default Work Unit\EndFight	
+
+State	ID	Name	State Group			Notes
+	514064485	Fight	EndFight			
+	529726532	End	EndFight			
+	748895195	None	EndFight			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	240900977	End	EndFight	\Interactive Music Hierarchy\Default Work Unit\Crowd\Crowd_GetHyped		
+	405091521	End	EndFight	\Interactive Music Hierarchy\Default Work Unit\Battle\BattleMusic		
+	679888022	End	EndFight	\Interactive Music Hierarchy\Default Work Unit\Crowd\Crowd_Deception		
+	717006546	End	EndFight	\Interactive Music Hierarchy\Default Work Unit\Crowd\Crowd_Extatic		
 
 Effect plug-ins	ID	Name	Type				Notes
 	3948262040	Octave_Down	Wwise Pitch Shifter			
@@ -20,36 +42,51 @@ Effect plug-ins	ID	Name	Type				Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	18916997	SFX_Lance_Hit_3	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\SFX_Lance_Hit_3_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Weapons\Lance_hit\SFX_Lance_Hit_3\SFX_Lance_Hit_3		133068
 	55455432	Woodhorse_Rocking_4	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\Woodhorse_Rocking_4_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Horse_Rocking\Woodhorse_Rocking_4\Woodhorse_Rocking_4		67580
+	62949915	Hastilude_Jingle_START	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\Hastilude_Jingle_START_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Jingles\Jingle_Start\Hastilude_Jingle_START\Hastilude_Jingle_START		1852392
 	93874347	SFX_Crowd_Surprise_1	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\SFX_Crowd_Surprise_1_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Crowd\Crowd_Surprise\SFX_Crowd_Surprise_1\SFX_Crowd_Surprise_1		526452
 	115869636	SFX_Lance_Miss_3	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\SFX_Lance_Miss_3_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Weapons\Lance_miss\SFX_Lance_Miss_3\SFX_Lance_Miss_3		67532
 	118182146	SFX_Axe_Throw_Hit_2	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\SFX_Axe_Throw_Hit_2_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Weapons\Axe_hit\SFX_Axe_Throw_Hit_2\SFX_Axe_Throw_Hit_2		133068
+	185087658	Ambiance_wind_1	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\Ambiance_wind_1_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Ambience\Ambience_Wind\Ambiance_wind_1\Ambiance_wind_1		15868056
 	185430114	SFX_Crowd_GetHyped_Mod	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\SFX_Crowd_GetHyped_Mod_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Crowd\Crowd_GetHyped\SFX_Crowd_GetHyped_Mod\SFX_Crowd_GetHyped_Mod		4064416
 	258714846	SFX_Flail_Miss_1	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\SFX_Flail_Miss_1_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Weapons\Flail_miss\SFX_Flail_Miss_1\SFX_Flail_Miss_1		133116
 	264625260	Woodhorse_Rocking_3	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\Woodhorse_Rocking_3_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Horse_Rocking\Woodhorse_Rocking_3\Woodhorse_Rocking_3		67580
+	269601022	Hastilude_Jingle_Success	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\Hastilude_Jingle_Success_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Jingles\Jingle_Success\Hastilude_Jingle_Success\Hastilude_Jingle_Success		705792
+	271322153	Hastilude_Combat_4	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\Hastilude_Combat_4_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Battle\BattleMusic\Hastilude_Combat_4\Hastilude_Combat_4		2359440
 	275591250	SFX_Crowd_Surprise_5	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\SFX_Crowd_Surprise_5_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Crowd\Crowd_Surprise\SFX_Crowd_Surprise_5\SFX_Crowd_Surprise_5		352944
 	288184757	SFX_Flail_Miss_2	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\SFX_Flail_Miss_2_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Weapons\Flail_miss\SFX_Flail_Miss_2\SFX_Flail_Miss_2		133068
 	292095061	SFX_WeaponSelect	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\SFX_WeaponSelect_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Weapon_Selected\SFX_WeaponSelect\SFX_WeaponSelect		198652
 	302554154	SFX_Flail_Hit_3	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\SFX_Flail_Hit_3_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Weapons\Flail_hit\SFX_Flail_Hit_3\SFX_Flail_Hit_3		198604
 	309279884	SFX_Crowd_Surprise_2	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\SFX_Crowd_Surprise_2_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Crowd\Crowd_Surprise\SFX_Crowd_Surprise_2\SFX_Crowd_Surprise_2		352944
+	344332314	Hastilude_Jingle_AllMiss	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\Hastilude_Jingle_AllMiss_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Jingles\Jingle_AllMiss\Hastilude_Jingle_AllMiss\Hastilude_Jingle_AllMiss		2205192
 	413104383	SFX_Flail_Hit_1	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\SFX_Flail_Hit_1_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Weapons\Flail_hit\SFX_Flail_Hit_1\SFX_Flail_Hit_1		133116
 	423198057	SFX_Axe_Throw_Miss_3	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\SFX_Axe_Throw_Miss_3_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Weapons\Axe_miss\SFX_Axe_Throw_Miss_3\SFX_Axe_Throw_Miss_3		67532
 	446522076	Woodhorse_Rocking_2	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\Woodhorse_Rocking_2_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Horse_Rocking\Woodhorse_Rocking_2\Woodhorse_Rocking_2		67580
 	465655057	SFX_Crowd_Deception_Mod	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\SFX_Crowd_Deception_Mod_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Crowd\Crowd_Deception\SFX_Crowd_Deception_Mod\SFX_Crowd_Deception_Mod		4150044
 	468092593	SFX_Lance_Hit_4	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\SFX_Lance_Hit_4_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Weapons\Lance_hit\SFX_Lance_Hit_4\SFX_Lance_Hit_4		133068
+	471808106	Hastilude_Combat_2	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\Hastilude_Combat_2_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Battle\BattleMusic\Hastilude_Combat_2\Hastilude_Combat_2		2490512
 	483608939	SFX_Crowd_Surprise_4	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\SFX_Crowd_Surprise_4_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Crowd\Crowd_Surprise\SFX_Crowd_Surprise_4\SFX_Crowd_Surprise_4		330896
+	494438839	Ambiance_Flag_2	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\Ambiance_Flag_2_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Ambience\Ambience_Flags\Ambiance_Flag_2\Ambiance_Flag_2		3825816
 	503756771	SFX_Flail_Miss_3	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\SFX_Flail_Miss_3_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Weapons\Flail_miss\SFX_Flail_Miss_3\SFX_Flail_Miss_3		123140
 	519189307	SFX_Flail_Hit_2	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\SFX_Flail_Hit_2_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Weapons\Flail_hit\SFX_Flail_Hit_2\SFX_Flail_Hit_2		133068
 	523556551	SFX_Axe_Throw_Miss_2	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\SFX_Axe_Throw_Miss_2_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Weapons\Axe_miss\SFX_Axe_Throw_Miss_2\SFX_Axe_Throw_Miss_2		67532
 	576459463	SFX_Crowd_Extatic_Mod	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\SFX_Crowd_Extatic_Mod_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Crowd\Crowd_Extatic\SFX_Crowd_Extatic_Mod\SFX_Crowd_Extatic_Mod		3528144
 	610349233	SFX_Crowd_Surprise_3	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\SFX_Crowd_Surprise_3_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Crowd\Crowd_Surprise\SFX_Crowd_Surprise_3\SFX_Crowd_Surprise_3		308844
+	624092242	Ambiance_Flag_1	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\Ambiance_Flag_1_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Ambience\Ambience_Flags\Ambiance_Flag_1\Ambiance_Flag_1		3768488
 	638878528	SFX_Lance_Hit_2	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\SFX_Lance_Hit_2_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Weapons\Lance_hit\SFX_Lance_Hit_2\SFX_Lance_Hit_2		133068
 	671841139	SFX_Lance_Miss_1	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\SFX_Lance_Miss_1_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Weapons\Lance_miss\SFX_Lance_Miss_1\SFX_Lance_Miss_1		67580
 	712800593	Woodhorse_Rocking_1	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\Woodhorse_Rocking_1_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Horse_Rocking\Woodhorse_Rocking_1\Woodhorse_Rocking_1		67580
+	718836665	Hastilude_Combat_End	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\Hastilude_Combat_End_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Battle\BattleMusic\Hastilude_Combat_End\Hastilude_Combat_End		288796
+	732835788	Hastilude_Combat_3	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\Hastilude_Combat_3_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Battle\BattleMusic\Hastilude_Combat_3\Hastilude_Combat_3		3801232
 	739333911	SFX_Axe_Throw_Hit_1	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\SFX_Axe_Throw_Hit_1_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Weapons\Axe_hit\SFX_Axe_Throw_Hit_1\SFX_Axe_Throw_Hit_1		133116
 	748599439	SFX_Lance_Miss_2	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\SFX_Lance_Miss_2_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Weapons\Lance_miss\SFX_Lance_Miss_2\SFX_Lance_Miss_2		60140
+	749497937	Hastilude_Combat_1	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\Hastilude_Combat_1_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Battle\BattleMusic\Hastilude_Combat_1\Hastilude_Combat_1		4849856
 	769109219	SFX_Axe_Throw_Hit_3	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\SFX_Axe_Throw_Hit_3_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Weapons\Axe_hit\SFX_Axe_Throw_Hit_3\SFX_Axe_Throw_Hit_3		133068
+	819325022	Ambiance_Park_1	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\Ambiance_Park_1_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Ambience\Ambience_Park\Ambiance_Park_1\Ambiance_Park_1		4579560
 	898647358	SFX_Lance_Hit_1	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\SFX_Lance_Hit_1_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Weapons\Lance_hit\SFX_Lance_Hit_1\SFX_Lance_Hit_1		133116
 	985389615	SFX_Helm_Down	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\SFX_Helm_Down_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Helm_Down\SFX_Helm_Down\SFX_Helm_Down		395260
+	986572489	Ambiance_bird_1	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\Ambiance_bird_1_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Ambience\Ambience_Birds\Ambiance_bird_1\Ambiance_bird_1		4330120
+	1009987633	SFX_BirdsFlyAway	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\SFX_BirdsFlyAway_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Birds_FlyAway\SFX_BirdsFlyAway\SFX_BirdsFlyAway		519888
+	1025398509	Ambiance_Male_Crowd_1	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\Ambiance_Male_Crowd_1_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Ambience\Ambience_MaleCrowd\Ambiance_Male_Crowd_1\Ambiance_Male_Crowd_1		13097844
 	1064535506	SFX_Axe_Throw_Miss_1	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\SFX_Axe_Throw_Miss_1_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Weapons\Axe_miss\SFX_Axe_Throw_Miss_1\SFX_Axe_Throw_Miss_1		133116
 	1066168614	SFX_Lance_Hit_5	E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Windows\SFX\SFX_Lance_Hit_5_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Weapons\Lance_hit\SFX_Lance_Hit_5\SFX_Lance_Hit_5		133068
 

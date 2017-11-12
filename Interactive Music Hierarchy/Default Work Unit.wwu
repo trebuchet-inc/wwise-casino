@@ -4796,7 +4796,6 @@
 												<Property Name="DestinationContextType" Type="int16" Value="1"/>
 												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
 											</PropertyList>
-											<ReferenceList/>
 											<TransitionInfo>
 												<SourceFadeOut>
 													<MusicFade Name="Source Fade-out" ID="{76BF3C58-2C99-4F3B-8489-CF08C238F469}">
