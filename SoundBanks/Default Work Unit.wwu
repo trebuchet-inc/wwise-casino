@@ -5,12 +5,19 @@
 			<ChildrenList>
 				<SoundBank Name="Soundbank" ID="{873687F5-467C-4C34-B1D9-1BB75ED66008}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Battle" ID="{67913BC9-E44C-4095-BF7E-3945C79C9955}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_BattleMusic" ID="{14237233-8975-41E8-95A2-21BAB31CA3D4}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Weapon_Selected" ID="{D752C987-7413-4249-B795-FEA8E7FA292B}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Weapon_Selected" ID="{D25228E3-53AF-429F-93A3-20AB3035F917}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Jingles" ID="{2DB94640-66D0-4419-AC83-39FC465ACA52}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Crowd" ID="{8B581C9F-A1F2-44F9-A701-086B606767DA}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Crowd_Surprise" ID="{5C4864D4-822E-4500-8510-BF6415D72EC7}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Axe_miss" ID="{8BD9E59B-ABF9-4523-8FA4-5021002BDF13}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Jingle_Start" ID="{E954219A-50A0-45F9-B77C-3AF677B9A7B7}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Ambiance" ID="{CCBA4B83-8CFA-4695-80FF-29848A88410C}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Crowd_Deception" ID="{90E06D96-9F4E-46DF-A862-44802C9A2DCD}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Jingle_Success" ID="{BFBE847C-9265-474E-88BC-97353702CDAE}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Birds_FlyAway" ID="{1B42E726-C8F1-4880-A309-0C314C216104}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Horse_Rocking" ID="{11FACB8E-5EA7-4889-AB71-3996349344FE}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Flail_hit" ID="{BB20C573-36EB-48EB-BF2A-418AF317350B}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Horse_Rocking" ID="{29790861-9BEA-498A-BEB9-4E5C57078B46}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}" Filter="7" Origin="Manual"/>
@@ -23,9 +30,11 @@
 						<ObjectRef Name="Play_Lance_miss" ID="{1CB1B625-3E65-4CCB-BD93-425659EC2750}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_PlayerKilledTooSoon" ID="{301FBA50-38AE-4D71-9122-A573CDDDBE75}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Helm_Down" ID="{86023735-AFA2-4D7A-9604-2A3B3F5B242B}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_BattleMusic" ID="{2A04DA2A-78A6-4DF5-B042-C035F1BC8981}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Axe_hit" ID="{2148E380-5A56-4EA6-BFDF-24B308E34FBA}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Ambiance" ID="{5F24F4B9-FF4A-4EB1-AECD-F872197008C6}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Crowd_Extatic" ID="{28A6A116-AA61-4EEC-B1C7-632E383458B1}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Jingle_AllMiss" ID="{A5BBBB4E-25F1-4F6A-8873-F33DC1B721A0}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Weapons" ID="{9DD9F64C-AF94-4F6D-9E83-9E04880F1E1D}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Default Work Unit" ID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
