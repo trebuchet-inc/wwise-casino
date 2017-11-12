@@ -415,6 +415,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{0DA77787-3CE2-4D69-A57B-532ADFE9C9F2}" ShortID="750706899">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Players_Die" ID="{56C7F993-4D49-4036-958B-C72322AEB7EB}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_BattleMusic" ID="{14237233-8975-41E8-95A2-21BAB31CA3D4}">
@@ -518,6 +528,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{C614E5A7-4932-4C6B-8B2A-E7B2796BEEE5}" ShortID="100154382">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Players_Miss" ID="{B0FD0550-3AB5-4F83-8208-AAD4663EA5C3}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Jingle_Success" ID="{BFBE847C-9265-474E-88BC-97353702CDAE}">
@@ -542,6 +562,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{9E2DF167-383F-4506-96B9-A0047E5A7E42}" ShortID="329011182">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Players_Hit" ID="{F87334E7-8F57-4F65-B463-74171D778457}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Jingle_Start" ID="{E954219A-50A0-45F9-B77C-3AF677B9A7B7}">
@@ -563,6 +593,44 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="End" ID="{8037E171-DEE7-442B-8444-41C6CD10E885}" WorkUnitID="{E386A086-A6F8-4C32-9D78-99DFFC32A52B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B5DEC501-83C0-4930-A7AC-CEB9927A54EB}" ShortID="1056001236">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Match_Débute" ID="{6ABBC848-2D2D-4494-A06F-592568FEA86D}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Intro_Annonceurs" ID="{E88C8D98-CF61-4961-8469-17E62583B877}">
+					<ChildrenList>
+						<Action Name="" ID="{FC09EA9F-B246-4CEA-955E-6DA6F59B18FD}" ShortID="588925692">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Intro_Annonceurs" ID="{FF865503-9AF4-46C8-AFEC-B8E56484E93D}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Players_Win" ID="{CFC34C8E-123E-4946-813E-E4A8482E7C88}">
+					<ChildrenList>
+						<Action Name="" ID="{B68DB268-7EFC-4771-A95A-0648AB9AFB42}" ShortID="893324730">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Players_Win" ID="{C2367504-6DE4-4B79-ABB8-41B93F12721F}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

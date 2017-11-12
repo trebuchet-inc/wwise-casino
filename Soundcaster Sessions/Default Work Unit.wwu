@@ -22,6 +22,10 @@
 							<Position X="0" Y="3"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_Intro_Annonceurs" ID="{E88C8D98-CF61-4961-8469-17E62583B877}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Axe_miss" ID="{8BD9E59B-ABF9-4523-8FA4-5021002BDF13}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -77,10 +81,14 @@
 							<ObjectRef Name="Play_Jingle_AllMiss" ID="{A5BBBB4E-25F1-4F6A-8873-F33DC1B721A0}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}"/>
 							<Position X="4" Y="3"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_Players_Win" ID="{CFC34C8E-123E-4946-813E-E4A8482E7C88}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}"/>
+							<Position X="4" Y="4"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Fight" ID="{83C70D81-6947-43A3-907D-F4342C66F1CF}"/>
+						<CurrentStateRef Name="End" ID="{8037E171-DEE7-442B-8444-41C6CD10E885}"/>
 						<CurrentStateRef Name="Crowd_On" ID="{1D10490B-965E-408F-BF20-10661CDB58E8}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>

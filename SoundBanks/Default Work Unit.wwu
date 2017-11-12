@@ -15,6 +15,8 @@
 						<ObjectRef Name="Play_Jingle_Success" ID="{BFBE847C-9265-474E-88BC-97353702CDAE}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Horse_Rocking" ID="{11FACB8E-5EA7-4889-AB71-3996349344FE}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Flail_hit" ID="{BB20C573-36EB-48EB-BF2A-418AF317350B}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Players_Win" ID="{CFC34C8E-123E-4946-813E-E4A8482E7C88}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Intro_Annonceurs" ID="{E88C8D98-CF61-4961-8469-17E62583B877}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Crowd_GetHyped" ID="{B41195E9-258C-4A2E-872F-0A125A251347}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Lance_hit" ID="{1F8ABB51-E4DB-4AC6-AAA0-F1B69A8B6CD0}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Flail_miss" ID="{936975BC-7F58-4BD2-9885-A04F51BA0F46}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
