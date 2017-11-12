@@ -53,6 +53,14 @@
 							<ObjectRef Name="Play_Horse_Rocking" ID="{11FACB8E-5EA7-4889-AB71-3996349344FE}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}"/>
 							<Position X="3" Y="2"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ambiance" ID="{5F24F4B9-FF4A-4EB1-AECD-F872197008C6}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_PlayerKilledTooSoon" ID="{301FBA50-38AE-4D71-9122-A573CDDDBE75}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}"/>
+							<Position X="4" Y="1"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
