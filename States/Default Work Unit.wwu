@@ -10,6 +10,13 @@
 						<State Name="Fight" ID="{83C70D81-6947-43A3-907D-F4342C66F1CF}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="Crowd_Fades" ID="{15FA5149-677E-4332-84A8-041901AA6D9A}">
+					<ChildrenList>
+						<State Name="None" ID="{5E42CBD7-7E6E-4D20-B3EE-50092E0E91E9}"/>
+						<State Name="Crowd_On" ID="{1D10490B-965E-408F-BF20-10661CDB58E8}"/>
+						<State Name="Crowd_Off" ID="{604C248E-383D-4614-96EF-AF0B263DCE92}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

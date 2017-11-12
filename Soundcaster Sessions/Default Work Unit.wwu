@@ -34,10 +34,6 @@
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Stop_BattleMusic" ID="{2A04DA2A-78A6-4DF5-B042-C035F1BC8981}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}"/>
-							<Position X="1" Y="3"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Play_Crowd_Deception" ID="{90E06D96-9F4E-46DF-A862-44802C9A2DCD}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}"/>
 							<Position X="2" Y="0"/>
 						</Module>
@@ -85,6 +81,7 @@
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Fight" ID="{83C70D81-6947-43A3-907D-F4342C66F1CF}"/>
+						<CurrentStateRef Name="Crowd_On" ID="{1D10490B-965E-408F-BF20-10661CDB58E8}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
