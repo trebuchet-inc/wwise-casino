@@ -20,6 +20,8 @@
 						<ObjectRef Name="Birds_FlyAway" ID="{1B42E726-C8F1-4880-A309-0C314C216104}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Horse_Rocking" ID="{11FACB8E-5EA7-4889-AB71-3996349344FE}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Flail_hit" ID="{BB20C573-36EB-48EB-BF2A-418AF317350B}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Players_Win" ID="{CFC34C8E-123E-4946-813E-E4A8482E7C88}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Intro_Annonceurs" ID="{E88C8D98-CF61-4961-8469-17E62583B877}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Horse_Rocking" ID="{29790861-9BEA-498A-BEB9-4E5C57078B46}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Crowd_GetHyped" ID="{B41195E9-258C-4A2E-872F-0A125A251347}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Ambience" ID="{25BE3728-2716-4AC4-8D93-53F9F373E866}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}" Filter="7" Origin="Manual"/>
