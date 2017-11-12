@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="125">
+	<RootPaths>
+		<ProjectRoot>E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>E:\Unity Projects\CasinoGameJam\jamnation-casino_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1661994096" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Soundbank</ObjectPath>
+			<ShortName>Soundbank</ShortName>
+			<Path>Soundbank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1776375684" Name="Play_Axe_hit" ObjectPath="\Events\Default Work Unit\Play_Axe_hit"/>
+				<Event Id="1986109701" Name="Play_Axe_miss" ObjectPath="\Events\Default Work Unit\Play_Axe_miss"/>
+				<Event Id="3293666249" Name="Play_Crowd_Deception" ObjectPath="\Events\Default Work Unit\Play_Crowd_Deception"/>
+				<Event Id="2618475426" Name="Play_Crowd_Extatic" ObjectPath="\Events\Default Work Unit\Play_Crowd_Extatic"/>
+				<Event Id="2757160520" Name="Play_Crowd_GetHyped" ObjectPath="\Events\Default Work Unit\Play_Crowd_GetHyped"/>
+				<Event Id="2846880533" Name="Play_Crowd_Surprise" ObjectPath="\Events\Default Work Unit\Play_Crowd_Surprise"/>
+				<Event Id="1413915552" Name="Play_Flail_hit" ObjectPath="\Events\Default Work Unit\Play_Flail_hit"/>
+				<Event Id="1092160905" Name="Play_Flail_miss" ObjectPath="\Events\Default Work Unit\Play_Flail_miss"/>
+				<Event Id="1605983305" Name="Play_Helm_Down" ObjectPath="\Events\Default Work Unit\Play_Helm_Down"/>
+				<Event Id="84185841" Name="Play_Horse_Rocking" ObjectPath="\Events\Default Work Unit\Play_Horse_Rocking"/>
+				<Event Id="3574353209" Name="Play_Lance_hit" ObjectPath="\Events\Default Work Unit\Play_Lance_hit"/>
+				<Event Id="2977442550" Name="Play_Lance_miss" ObjectPath="\Events\Default Work Unit\Play_Lance_miss"/>
+				<Event Id="1234332190" Name="Play_Weapon_Selected" ObjectPath="\Events\Default Work Unit\Play_Weapon_Selected"/>
+				<Event Id="2230898146" Name="Stop_Crowds" ObjectPath="\Events\Default Work Unit\Stop_Crowds"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="18916997" Language="SFX">
+					<ShortName>SFX_Lance_Hit_3.wav</ShortName>
+					<Path>SFX\SFX_Lance_Hit_3_F17FB28C.wem</Path>
+				</File>
+				<File Id="55455432" Language="SFX">
+					<ShortName>Woodhorse_Rocking_4.wav</ShortName>
+					<Path>SFX\Woodhorse_Rocking_4_F17FB28C.wem</Path>
+				</File>
+				<File Id="93874347" Language="SFX">
+					<ShortName>SFX_Crowd_Surprise_1.wav</ShortName>
+					<Path>SFX\SFX_Crowd_Surprise_1_F17FB28C.wem</Path>
+				</File>
+				<File Id="115869636" Language="SFX">
+					<ShortName>SFX_Lance_Miss_3.wav</ShortName>
+					<Path>SFX\SFX_Lance_Miss_3_F17FB28C.wem</Path>
+				</File>
+				<File Id="118182146" Language="SFX">
+					<ShortName>SFX_Axe_Throw_Hit_2.wav</ShortName>
+					<Path>SFX\SFX_Axe_Throw_Hit_2_F17FB28C.wem</Path>
+				</File>
+				<File Id="185430114" Language="SFX">
+					<ShortName>SFX_Crowd_GetHyped_Mod.wav</ShortName>
+					<Path>SFX\SFX_Crowd_GetHyped_Mod_F17FB28C.wem</Path>
+				</File>
+				<File Id="258714846" Language="SFX">
+					<ShortName>SFX_Flail_Miss_1.wav</ShortName>
+					<Path>SFX\SFX_Flail_Miss_1_F17FB28C.wem</Path>
+				</File>
+				<File Id="264625260" Language="SFX">
+					<ShortName>Woodhorse_Rocking_3.wav</ShortName>
+					<Path>SFX\Woodhorse_Rocking_3_F17FB28C.wem</Path>
+				</File>
+				<File Id="275591250" Language="SFX">
+					<ShortName>SFX_Crowd_Surprise_5.wav</ShortName>
+					<Path>SFX\SFX_Crowd_Surprise_5_F17FB28C.wem</Path>
+				</File>
+				<File Id="288184757" Language="SFX">
+					<ShortName>SFX_Flail_Miss_2.wav</ShortName>
+					<Path>SFX\SFX_Flail_Miss_2_F17FB28C.wem</Path>
+				</File>
+				<File Id="292095061" Language="SFX">
+					<ShortName>SFX_WeaponSelect.wav</ShortName>
+					<Path>SFX\SFX_WeaponSelect_F17FB28C.wem</Path>
+				</File>
+				<File Id="302554154" Language="SFX">
+					<ShortName>SFX_Flail_Hit_3.wav</ShortName>
+					<Path>SFX\SFX_Flail_Hit_3_F17FB28C.wem</Path>
+				</File>
+				<File Id="309279884" Language="SFX">
+					<ShortName>SFX_Crowd_Surprise_2.wav</ShortName>
+					<Path>SFX\SFX_Crowd_Surprise_2_F17FB28C.wem</Path>
+				</File>
+				<File Id="413104383" Language="SFX">
+					<ShortName>SFX_Flail_Hit_1.wav</ShortName>
+					<Path>SFX\SFX_Flail_Hit_1_F17FB28C.wem</Path>
+				</File>
+				<File Id="423198057" Language="SFX">
+					<ShortName>SFX_Axe_Throw_Miss_3.wav</ShortName>
+					<Path>SFX\SFX_Axe_Throw_Miss_3_F17FB28C.wem</Path>
+				</File>
+				<File Id="446522076" Language="SFX">
+					<ShortName>Woodhorse_Rocking_2.wav</ShortName>
+					<Path>SFX\Woodhorse_Rocking_2_F17FB28C.wem</Path>
+				</File>
+				<File Id="465655057" Language="SFX">
+					<ShortName>SFX_Crowd_Deception_Mod.wav</ShortName>
+					<Path>SFX\SFX_Crowd_Deception_Mod_F17FB28C.wem</Path>
+				</File>
+				<File Id="468092593" Language="SFX">
+					<ShortName>SFX_Lance_Hit_4.wav</ShortName>
+					<Path>SFX\SFX_Lance_Hit_4_F17FB28C.wem</Path>
+				</File>
+				<File Id="483608939" Language="SFX">
+					<ShortName>SFX_Crowd_Surprise_4.wav</ShortName>
+					<Path>SFX\SFX_Crowd_Surprise_4_F17FB28C.wem</Path>
+				</File>
+				<File Id="503756771" Language="SFX">
+					<ShortName>SFX_Flail_Miss_3.wav</ShortName>
+					<Path>SFX\SFX_Flail_Miss_3_F17FB28C.wem</Path>
+				</File>
+				<File Id="519189307" Language="SFX">
+					<ShortName>SFX_Flail_Hit_2.wav</ShortName>
+					<Path>SFX\SFX_Flail_Hit_2_F17FB28C.wem</Path>
+				</File>
+				<File Id="523556551" Language="SFX">
+					<ShortName>SFX_Axe_Throw_Miss_2.wav</ShortName>
+					<Path>SFX\SFX_Axe_Throw_Miss_2_F17FB28C.wem</Path>
+				</File>
+				<File Id="576459463" Language="SFX">
+					<ShortName>SFX_Crowd_Extatic_Mod.wav</ShortName>
+					<Path>SFX\SFX_Crowd_Extatic_Mod_F17FB28C.wem</Path>
+				</File>
+				<File Id="610349233" Language="SFX">
+					<ShortName>SFX_Crowd_Surprise_3.wav</ShortName>
+					<Path>SFX\SFX_Crowd_Surprise_3_F17FB28C.wem</Path>
+				</File>
+				<File Id="638878528" Language="SFX">
+					<ShortName>SFX_Lance_Hit_2.wav</ShortName>
+					<Path>SFX\SFX_Lance_Hit_2_F17FB28C.wem</Path>
+				</File>
+				<File Id="671841139" Language="SFX">
+					<ShortName>SFX_Lance_Miss_1.wav</ShortName>
+					<Path>SFX\SFX_Lance_Miss_1_F17FB28C.wem</Path>
+				</File>
+				<File Id="712800593" Language="SFX">
+					<ShortName>Woodhorse_Rocking_1.wav</ShortName>
+					<Path>SFX\Woodhorse_Rocking_1_F17FB28C.wem</Path>
+				</File>
+				<File Id="739333911" Language="SFX">
+					<ShortName>SFX_Axe_Throw_Hit_1.wav</ShortName>
+					<Path>SFX\SFX_Axe_Throw_Hit_1_F17FB28C.wem</Path>
+				</File>
+				<File Id="748599439" Language="SFX">
+					<ShortName>SFX_Lance_Miss_2.wav</ShortName>
+					<Path>SFX\SFX_Lance_Miss_2_F17FB28C.wem</Path>
+				</File>
+				<File Id="769109219" Language="SFX">
+					<ShortName>SFX_Axe_Throw_Hit_3.wav</ShortName>
+					<Path>SFX\SFX_Axe_Throw_Hit_3_F17FB28C.wem</Path>
+				</File>
+				<File Id="898647358" Language="SFX">
+					<ShortName>SFX_Lance_Hit_1.wav</ShortName>
+					<Path>SFX\SFX_Lance_Hit_1_F17FB28C.wem</Path>
+				</File>
+				<File Id="985389615" Language="SFX">
+					<ShortName>SFX_Helm_Down.wav</ShortName>
+					<Path>SFX\SFX_Helm_Down_F17FB28C.wem</Path>
+				</File>
+				<File Id="1064535506" Language="SFX">
+					<ShortName>SFX_Axe_Throw_Miss_1.wav</ShortName>
+					<Path>SFX\SFX_Axe_Throw_Miss_1_F17FB28C.wem</Path>
+				</File>
+				<File Id="1066168614" Language="SFX">
+					<ShortName>SFX_Lance_Hit_5.wav</ShortName>
+					<Path>SFX\SFX_Lance_Hit_5_F17FB28C.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
