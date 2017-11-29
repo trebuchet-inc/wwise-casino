@@ -3616,7 +3616,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-15</Value>
+										<Value>-4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -7596,6 +7596,301 @@
 						</MusicPlaylistItem>
 					</Playlist>
 				</MusicPlaylistContainer>
+				<Folder Name="JouteStarts" ID="{734B5F1C-BF6F-4FEC-BE6E-7AA9E3376662}" ShortID="1005936587">
+					<ChildrenList>
+						<MusicPlaylistContainer Name="JouteStarts" ID="{8AE1D983-E46C-4A88-AE67-942078855D09}" ShortID="497393525">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{985D7A0E-CF96-4485-9B21-F9417DD80606}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8D0D8FB9-AA69-43CB-85BE-3925EE7F5E00}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="JouteStarts3" ID="{CD98C339-E055-4043-A557-52F1B9105031}" ShortID="401455872">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{985D7A0E-CF96-4485-9B21-F9417DD80606}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8D0D8FB9-AA69-43CB-85BE-3925EE7F5E00}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="JouteStarts3" ID="{C9371677-9578-44CA-9598-3D9BE2B66ECA}" ShortID="834255252">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8D0D8FB9-AA69-43CB-85BE-3925EE7F5E00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="JouteStarts3" ID="{E410DB00-12DB-4227-B0F0-B6863AD84B40}" ShortID="152251016">
+													<Language>SFX</Language>
+													<AudioFile>JouteStarts3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{BFC6C12C-205E-443E-A971-012B9AAA2C1A}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{A2AE3CD8-6959-4C00-B448-556E44B6BF39}">
+													<ClipList>
+														<MusicClip Name="JouteStarts3" ID="{5AF9D518-D0F0-4D39-8DCA-7F022423BE09}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="3715.19274376417"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="JouteStarts3" ID="{E410DB00-12DB-4227-B0F0-B6863AD84B40}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{44460676-D4CF-4562-8F17-0A35117B965C}"/>
+										<MusicCue Name="Exit Cue" ID="{D139F19D-1052-4F7A-9128-DB9DE73B02CF}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="3715.19274376417"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="JouteStarts2" ID="{283D379F-1C56-414A-A28D-C6B9442C0A62}" ShortID="139106814">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="7430.38548752835"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{985D7A0E-CF96-4485-9B21-F9417DD80606}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8D0D8FB9-AA69-43CB-85BE-3925EE7F5E00}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="JouteStarts2" ID="{C5B522AB-5202-427A-94DA-90FB3B5AA703}" ShortID="914466541">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8D0D8FB9-AA69-43CB-85BE-3925EE7F5E00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="JouteStarts2" ID="{04E698B6-30DC-4C9A-BE09-B75D91FDA527}" ShortID="1029326151">
+													<Language>SFX</Language>
+													<AudioFile>JouteStarts2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{DB72D9A6-F0FA-4D19-9736-093B3FF80496}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{33CD64C0-338C-4BBE-9879-9E87007DF309}">
+													<ClipList>
+														<MusicClip Name="JouteStarts2" ID="{6925744E-A359-4EC1-92B8-E77DA6327263}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="7430.38548752835"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="JouteStarts2" ID="{04E698B6-30DC-4C9A-BE09-B75D91FDA527}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{9D458862-7FCC-4224-9EA0-7F7235E928F2}"/>
+										<MusicCue Name="Exit Cue" ID="{BB65F43C-B2C3-4A75-AFAB-D9ACD255F62D}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="7430.38548752835"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="JouteStarts4" ID="{64A2FF12-AC17-4A7D-9A29-A89E27E6C5EA}" ShortID="56738889">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="8173.42403628118"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{985D7A0E-CF96-4485-9B21-F9417DD80606}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8D0D8FB9-AA69-43CB-85BE-3925EE7F5E00}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="JouteStarts4" ID="{578852D1-8E29-44D9-A95D-255E119CAED5}" ShortID="360981490">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8D0D8FB9-AA69-43CB-85BE-3925EE7F5E00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="JouteStarts4" ID="{6B6B9112-C502-4BE2-BCBA-8499B650FE26}" ShortID="133038436">
+													<Language>SFX</Language>
+													<AudioFile>JouteStarts4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{132764FD-1F9B-4A84-8FF2-09FBA751C3A7}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{B80C8881-32DE-44AD-97D7-5603CC0DA55A}">
+													<ClipList>
+														<MusicClip Name="JouteStarts4" ID="{371E10F4-8BC0-4416-AAED-C6112C6084BB}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="8173.42403628118"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="JouteStarts4" ID="{6B6B9112-C502-4BE2-BCBA-8499B650FE26}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{034E97B2-1E92-4175-B762-0E2507F88AB5}"/>
+										<MusicCue Name="Exit Cue" ID="{20EE384D-BBF5-4686-ACDC-3098969C04D4}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="8173.42403628118"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="JouteStarts1" ID="{48BA411B-B4E4-4131-839F-09CA03580E82}" ShortID="402719201">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="5201.26984126984"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{985D7A0E-CF96-4485-9B21-F9417DD80606}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8D0D8FB9-AA69-43CB-85BE-3925EE7F5E00}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="JouteStarts1" ID="{73D82D03-FC83-4FB4-A6B1-7348A5B7A9CB}" ShortID="650070053">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8D0D8FB9-AA69-43CB-85BE-3925EE7F5E00}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="JouteStarts1" ID="{2D519CD7-199D-4DD3-809C-C007F7B4FE40}" ShortID="512430034">
+													<Language>SFX</Language>
+													<AudioFile>JouteStarts1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{5A1FE46A-B5A0-492A-869E-CA62286A25F6}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{3A5C0739-6DEA-4140-8A58-2529F3CC008B}">
+													<ClipList>
+														<MusicClip Name="JouteStarts1" ID="{F975592A-E911-4F26-87CD-E22A7E0B9A2F}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="5201.26984126984"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="JouteStarts1" ID="{2D519CD7-199D-4DD3-809C-C007F7B4FE40}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{1D1CD687-B7B1-4985-BE18-39AE43DB917D}"/>
+										<MusicCue Name="Exit Cue" ID="{0383EA88-363B-43CF-8E39-99ED29A03BEC}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="5201.26984126984"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{96717905-19F1-499D-8FC7-32504C041C54}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{2826FE1C-88FB-4240-9B17-A7875D80F114}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{C3D3B044-D387-4391-B8D8-27CAB57DC41C}" ShortID="758718341">
+									<PropertyList>
+										<Property Name="PlayMode" Type="int16" Value="3"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{1CE31568-D57D-4DE1-9AB8-A719858E74CE}" ShortID="731353053">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="JouteStarts1" ID="{48BA411B-B4E4-4131-839F-09CA03580E82}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{8D4A0AB9-D0CF-455A-928B-E15B27C1B86A}" ShortID="289597007">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="JouteStarts2" ID="{283D379F-1C56-414A-A28D-C6B9442C0A62}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{4C39893E-5FC5-4F6A-AFB4-178E41F51CC1}" ShortID="654639212">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="JouteStarts3" ID="{CD98C339-E055-4043-A557-52F1B9105031}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{078CBD70-D269-4D3C-A830-6B10F9BF262D}" ShortID="341328506">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="JouteStarts4" ID="{64A2FF12-AC17-4A7D-9A29-A89E27E6C5EA}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>

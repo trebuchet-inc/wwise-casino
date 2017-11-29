@@ -5,11 +5,13 @@
 			<ChildrenList>
 				<SoundBank Name="Soundbank" ID="{873687F5-467C-4C34-B1D9-1BB75ED66008}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_Commentateurs" ID="{36F5F6F7-5778-4014-8C87-E57CD52E52C6}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Logo_Jingle" ID="{CFDB353E-1AFB-4094-9F0D-F9EA6B05F5B0}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_BattleMusic" ID="{14237233-8975-41E8-95A2-21BAB31CA3D4}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Weapon_Selected" ID="{D25228E3-53AF-429F-93A3-20AB3035F917}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Crowd_Surprise" ID="{5C4864D4-822E-4500-8510-BF6415D72EC7}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Axe_miss" ID="{8BD9E59B-ABF9-4523-8FA4-5021002BDF13}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_JouteStarts" ID="{148B80E0-CD50-45E8-B538-7956CCDB3A37}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Jingle_Start" ID="{E954219A-50A0-45F9-B77C-3AF677B9A7B7}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Ambiance" ID="{CCBA4B83-8CFA-4695-80FF-29848A88410C}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Crowd_Deception" ID="{90E06D96-9F4E-46DF-A862-44802C9A2DCD}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>

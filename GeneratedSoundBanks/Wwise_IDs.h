@@ -20,21 +20,17 @@ namespace AK
         static const AkUniqueID PLAY_CROWD_DECEPTION = 3293666249U;
         static const AkUniqueID PLAY_CROWD_EXTATIC = 2618475426U;
         static const AkUniqueID PLAY_CROWD_GETHYPED = 2757160520U;
-        static const AkUniqueID PLAY_CROWD_HYPE = 2235630056U;
         static const AkUniqueID PLAY_CROWD_SURPRISE = 2846880533U;
         static const AkUniqueID PLAY_FLAIL_HIT = 1413915552U;
         static const AkUniqueID PLAY_FLAIL_MISS = 1092160905U;
         static const AkUniqueID PLAY_HELM_DOWN = 1605983305U;
         static const AkUniqueID PLAY_HORSE_ROCKING = 84185841U;
-        static const AkUniqueID PLAY_INTRO_ANNONCEURS = 593020281U;
         static const AkUniqueID PLAY_JINGLE_ALLMISS = 3223684645U;
         static const AkUniqueID PLAY_JINGLE_START = 2606865948U;
         static const AkUniqueID PLAY_JINGLE_SUCCESS = 2513009785U;
         static const AkUniqueID PLAY_LANCE_HIT = 3574353209U;
         static const AkUniqueID PLAY_LANCE_MISS = 2977442550U;
-        static const AkUniqueID PLAY_LOGO_JINGLE = 354113329U;
         static const AkUniqueID PLAY_PLAYERKILLEDTOOSOON = 2030803885U;
-        static const AkUniqueID PLAY_PLAYERS_WIN = 1585422495U;
         static const AkUniqueID PLAY_WEAPON_SELECTED = 1234332190U;
         static const AkUniqueID STOP_AMBIANCE = 2839405212U;
         static const AkUniqueID STOP_BATTLEMUSIC = 3329728603U;
@@ -43,17 +39,6 @@ namespace AK
 
     namespace STATES
     {
-        namespace CROWD_FADES
-        {
-            static const AkUniqueID GROUP = 3508754124U;
-
-            namespace STATE
-            {
-                static const AkUniqueID CROWD_OFF = 3454331530U;
-                static const AkUniqueID CROWD_ON = 2077289708U;
-            } // namespace STATE
-        } // namespace CROWD_FADES
-
         namespace ENDFIGHT
         {
             static const AkUniqueID GROUP = 1263061326U;
@@ -66,11 +51,6 @@ namespace AK
         } // namespace ENDFIGHT
 
     } // namespace STATES
-
-    namespace GAME_PARAMETERS
-    {
-        static const AkUniqueID CROWD_HYPE = 2658274463U;
-    } // namespace GAME_PARAMETERS
 
     namespace BANKS
     {

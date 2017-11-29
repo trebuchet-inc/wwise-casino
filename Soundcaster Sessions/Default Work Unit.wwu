@@ -89,6 +89,14 @@
 							<ObjectRef Name="Crowd_Hype" ID="{EDED2FC6-7240-4A70-9C3C-61239CCEE718}" WorkUnitID="{84BC4D72-C464-45CF-A83C-75D8571D7AB4}"/>
 							<Position X="4" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_Commentateurs" ID="{36F5F6F7-5778-4014-8C87-E57CD52E52C6}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}"/>
+							<Position X="4" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_JouteStarts" ID="{148B80E0-CD50-45E8-B538-7956CCDB3A37}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}"/>
+							<Position X="4" Y="3"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>

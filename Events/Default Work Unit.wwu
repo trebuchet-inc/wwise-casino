@@ -675,6 +675,45 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Commentateurs" ID="{36F5F6F7-5778-4014-8C87-E57CD52E52C6}">
+					<ChildrenList>
+						<Action Name="" ID="{FBE76AEB-FB3B-4ADC-A0DF-0A78DDE5F4DD}" ShortID="363904763">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Commentateurs" ID="{7F11A985-D700-4D34-9947-B665FDD4DCD8}" WorkUnitID="{84BC4D72-C464-45CF-A83C-75D8571D7AB4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_JouteStarts" ID="{148B80E0-CD50-45E8-B538-7956CCDB3A37}">
+					<ChildrenList>
+						<Action Name="" ID="{F36728BF-3A62-42A2-864C-CE8E3B2604D7}" ShortID="1068310058">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="JouteStarts" ID="{8AE1D983-E46C-4A88-AE67-942078855D09}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{46297AEE-6D76-46EB-8C73-ABD49ECD2083}" ShortID="865152399">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Commentateurs" ID="{7F11A985-D700-4D34-9947-B665FDD4DCD8}" WorkUnitID="{84BC4D72-C464-45CF-A83C-75D8571D7AB4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
