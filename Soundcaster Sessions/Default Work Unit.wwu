@@ -38,6 +38,14 @@
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_Jingle_AllMiss" ID="{A5BBBB4E-25F1-4F6A-8873-F33DC1B721A0}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Players_Win" ID="{CFC34C8E-123E-4946-813E-E4A8482E7C88}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}"/>
+							<Position X="1" Y="4"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Crowd_Deception" ID="{90E06D96-9F4E-46DF-A862-44802C9A2DCD}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}"/>
 							<Position X="2" Y="0"/>
 						</Module>
@@ -52,6 +60,10 @@
 						<Module>
 							<ObjectRef Name="Play_Jingle_Success" ID="{BFBE847C-9265-474E-88BC-97353702CDAE}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}"/>
 							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ambiance" ID="{5F24F4B9-FF4A-4EB1-AECD-F872197008C6}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}"/>
+							<Position X="2" Y="4"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Crowd_Extatic" ID="{28A6A116-AA61-4EEC-B1C7-632E383458B1}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}"/>
@@ -70,23 +82,20 @@
 							<Position X="3" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Ambiance" ID="{5F24F4B9-FF4A-4EB1-AECD-F872197008C6}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}"/>
+							<ObjectRef Name="Play_PlayerKilledTooSoon" ID="{301FBA50-38AE-4D71-9122-A573CDDDBE75}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}"/>
+							<Position X="3" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Crowd_Hype" ID="{EDED2FC6-7240-4A70-9C3C-61239CCEE718}" WorkUnitID="{84BC4D72-C464-45CF-A83C-75D8571D7AB4}"/>
 							<Position X="4" Y="0"/>
 						</Module>
-						<Module>
-							<ObjectRef Name="Play_PlayerKilledTooSoon" ID="{301FBA50-38AE-4D71-9122-A573CDDDBE75}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}"/>
-							<Position X="4" Y="1"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_Jingle_AllMiss" ID="{A5BBBB4E-25F1-4F6A-8873-F33DC1B721A0}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}"/>
-							<Position X="4" Y="3"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_Players_Win" ID="{CFC34C8E-123E-4946-813E-E4A8482E7C88}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}"/>
-							<Position X="4" Y="4"/>
-						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Crowd_Hype" ID="{F07D1199-A16B-4AC3-81EB-0A87815A656C}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Fight" ID="{83C70D81-6947-43A3-907D-F4342C66F1CF}"/>
 						<CurrentStateRef Name="Crowd_On" ID="{1D10490B-965E-408F-BF20-10661CDB58E8}"/>

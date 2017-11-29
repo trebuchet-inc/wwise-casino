@@ -1,6 +1,1076 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{84BC4D72-C464-45CF-A83C-75D8571D7AB4}" SchemaVersion="80">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{84BC4D72-C464-45CF-A83C-75D8571D7AB4}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{84BC4D72-C464-45CF-A83C-75D8571D7AB4}" PersistMode="Standalone">
+			<ChildrenList>
+				<BlendContainer Name="Crowd_Hype" ID="{EDED2FC6-7240-4A70-9C3C-61239CCEE718}" ShortID="666038582">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{985D7A0E-CF96-4485-9B21-F9417DD80606}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+							<ObjectRef Name="Hall_Medium" ID="{50286348-176A-4235-9E4C-CA5F73D87818}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8D0D8FB9-AA69-43CB-85BE-3925EE7F5E00}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Crowd Claps 4" ID="{3E685420-E433-4B4B-8798-6AD3AF6FBFF4}" ShortID="853450769">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{985D7A0E-CF96-4485-9B21-F9417DD80606}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Hall_Large" ID="{6D154498-FF6D-4823-96FC-56841B70E079}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8D0D8FB9-AA69-43CB-85BE-3925EE7F5E00}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Crowd Claps 4" ID="{7AC248F0-12F3-4BAE-8B21-2E9A24A63C23}" ShortID="611309865">
+									<Language>SFX</Language>
+									<AudioFile>Crowd Claps 4.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Crowd Claps 4" ID="{7AC248F0-12F3-4BAE-8B21-2E9A24A63C23}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Crowd Claps 9" ID="{D84D4A7A-D6E2-4058-8B38-E45A27A709FB}" ShortID="955749918">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{985D7A0E-CF96-4485-9B21-F9417DD80606}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8D0D8FB9-AA69-43CB-85BE-3925EE7F5E00}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Crowd Claps 9" ID="{0B5D0156-B774-4A9F-A5DA-CD2D566C9F52}" ShortID="522416511">
+									<Language>SFX</Language>
+									<AudioFile>Crowd Claps 9.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Crowd Claps 9" ID="{0B5D0156-B774-4A9F-A5DA-CD2D566C9F52}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Crowd Dec -3" ID="{EF2E0FE0-FE6D-4544-9DE6-8F2A272CF00C}" ShortID="496987546">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{985D7A0E-CF96-4485-9B21-F9417DD80606}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8D0D8FB9-AA69-43CB-85BE-3925EE7F5E00}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Crowd Dec -3" ID="{42CBAF17-1E97-4611-BC67-4A999271E479}" ShortID="404429421">
+									<Language>SFX</Language>
+									<AudioFile>Crowd Dec -3.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Crowd Dec -3" ID="{42CBAF17-1E97-4611-BC67-4A999271E479}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Crowd Dec -6" ID="{9B97FA59-D032-4E71-983F-B1AE3D915E03}" ShortID="211207617">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{985D7A0E-CF96-4485-9B21-F9417DD80606}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8D0D8FB9-AA69-43CB-85BE-3925EE7F5E00}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Crowd Dec -6" ID="{6F59A45E-3D3C-4800-9BBC-4C51797C3CC0}" ShortID="382243232">
+									<Language>SFX</Language>
+									<AudioFile>Crowd Dec -6.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Crowd Dec -6" ID="{6F59A45E-3D3C-4800-9BBC-4C51797C3CC0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Crowd Dec -10" ID="{1638A116-B8ED-4ECC-8C24-466102EFF3E4}" ShortID="11681495">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{985D7A0E-CF96-4485-9B21-F9417DD80606}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8D0D8FB9-AA69-43CB-85BE-3925EE7F5E00}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Crowd Dec -10" ID="{75A6D1C0-83D6-4357-B7BB-43DA5648286E}" ShortID="1031579701">
+									<Language>SFX</Language>
+									<AudioFile>Crowd Dec -10.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Crowd Dec -10" ID="{75A6D1C0-83D6-4357-B7BB-43DA5648286E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Crowd Hype 2" ID="{C061A66E-9582-43F4-B9AF-B3E92A47C71F}" ShortID="493934261">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{985D7A0E-CF96-4485-9B21-F9417DD80606}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8D0D8FB9-AA69-43CB-85BE-3925EE7F5E00}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Crowd Hype 2" ID="{C0337C67-61DE-4A62-B7EF-2D03A8466E9F}" ShortID="848276677">
+									<Language>SFX</Language>
+									<AudioFile>Crowd Hype 2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Crowd Hype 2" ID="{C0337C67-61DE-4A62-B7EF-2D03A8466E9F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Crowd Hype 6" ID="{35CEFC71-4CBB-44F0-8DD1-F49F6A14624B}" ShortID="787930027">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{985D7A0E-CF96-4485-9B21-F9417DD80606}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8D0D8FB9-AA69-43CB-85BE-3925EE7F5E00}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Crowd Hype 6" ID="{C999720C-422A-470C-9CE2-3FC9E02394BA}" ShortID="970247574">
+									<Language>SFX</Language>
+									<AudioFile>Crowd Hype 6.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Crowd Hype 6" ID="{C999720C-422A-470C-9CE2-3FC9E02394BA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Crowd Hype 7" ID="{B981B63A-6BF1-4A21-8E5E-9BACA2373118}" ShortID="684224114">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{985D7A0E-CF96-4485-9B21-F9417DD80606}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8D0D8FB9-AA69-43CB-85BE-3925EE7F5E00}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Crowd Hype 7" ID="{9B6B4D7C-5BD0-4C49-95EE-DA3FBD992AF5}" ShortID="697336468">
+									<Language>SFX</Language>
+									<AudioFile>Crowd Hype 7.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Crowd Hype 7" ID="{9B6B4D7C-5BD0-4C49-95EE-DA3FBD992AF5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Crowd Hype 8" ID="{E07CBA52-E148-408E-B77E-004AA5CE3E3A}" ShortID="552811687">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{985D7A0E-CF96-4485-9B21-F9417DD80606}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8D0D8FB9-AA69-43CB-85BE-3925EE7F5E00}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Crowd Hype 8" ID="{457C0E70-451E-4166-ADFC-08278FB8E604}" ShortID="567253384">
+									<Language>SFX</Language>
+									<AudioFile>Crowd Hype 8.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Crowd Hype 8" ID="{457C0E70-451E-4166-ADFC-08278FB8E604}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Crowd Hype 10" ID="{FC956148-D20D-4E62-8255-75B18E8B134A}" ShortID="789109794">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{985D7A0E-CF96-4485-9B21-F9417DD80606}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8D0D8FB9-AA69-43CB-85BE-3925EE7F5E00}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Crowd Hype 10" ID="{F45C3D24-BE6B-4535-9350-16C687DFC1A6}" ShortID="328456388">
+									<Language>SFX</Language>
+									<AudioFile>Crowd Hype 10.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Crowd Hype 10" ID="{F45C3D24-BE6B-4535-9350-16C687DFC1A6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="GettingHyped" ID="{3E0583E5-AF08-45A9-88B1-3548DF722243}" ShortID="955225480">
+							<PropertyList>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{985D7A0E-CF96-4485-9B21-F9417DD80606}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8D0D8FB9-AA69-43CB-85BE-3925EE7F5E00}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Crowd GettingHyped Intro" ID="{C4EC122E-9575-4DA3-AA2C-984AE2F372C0}" ShortID="958398580">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{985D7A0E-CF96-4485-9B21-F9417DD80606}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8D0D8FB9-AA69-43CB-85BE-3925EE7F5E00}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Crowd GettingHyped Intro" ID="{749D8F24-1E1E-4937-997E-4E9A020CEF06}" ShortID="811896666">
+											<Language>SFX</Language>
+											<AudioFile>Crowd GettingHyped Intro.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Crowd GettingHyped Intro" ID="{749D8F24-1E1E-4937-997E-4E9A020CEF06}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Crowd GettingHyped Loop" ID="{969E1975-18B2-4770-9812-DF3B297A25CA}" ShortID="500278556">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{985D7A0E-CF96-4485-9B21-F9417DD80606}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8D0D8FB9-AA69-43CB-85BE-3925EE7F5E00}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Crowd GettingHyped Loop" ID="{90220FB3-B787-4D85-8AA0-4AB5C93B1750}" ShortID="61816042">
+											<Language>SFX</Language>
+											<AudioFile>Crowd GettingHyped Loop.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Crowd GettingHyped Loop" ID="{90220FB3-B787-4D85-8AA0-4AB5C93B1750}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="Crowd GettingHyped Intro" ID="{C4EC122E-9575-4DA3-AA2C-984AE2F372C0}"/>
+								<ItemRef Name="Crowd GettingHyped Loop" ID="{969E1975-18B2-4770-9812-DF3B297A25CA}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+						<Sound Name="Crowd Neutral" ID="{2F5568DB-9B2F-45F3-A6D9-6508D570A0C4}" ShortID="666884367">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-22</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{985D7A0E-CF96-4485-9B21-F9417DD80606}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8D0D8FB9-AA69-43CB-85BE-3925EE7F5E00}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Crowd Neutral" ID="{9B610353-E223-43CA-A161-0A6001911A7C}" ShortID="202046058">
+									<Language>SFX</Language>
+									<AudioFile>Crowd Neutral.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Crowd Neutral" ID="{9B610353-E223-43CA-A161-0A6001911A7C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<BlendTrackList>
+						<BlendTrack Name="Crowd -10" ID="{80E02951-7693-47F4-BC4A-DB634DC3CC4F}" ShortID="974109082">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{3C8168B2-5C76-4B83-86F5-C4CD82AE42CD}" ShortID="510113623">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Crowd_Hype" ID="{F07D1199-A16B-4AC3-81EB-0A87815A656C}" WorkUnitID="{52A5EB16-97B1-496A-A6B3-B68B24567827}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{840AF169-0031-4621-B70A-CE95784FEA64}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-100</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Exp2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>-49.6251874062969</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="LayerCrossFadeControlInput">
+									<ObjectRef Name="Crowd_Hype" ID="{F07D1199-A16B-4AC3-81EB-0A87815A656C}" WorkUnitID="{52A5EB16-97B1-496A-A6B3-B68B24567827}"/>
+								</Reference>
+							</ReferenceList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="Crowd Dec -10" ID="{1638A116-B8ED-4ECC-8C24-466102EFF3E4}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>-100</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>-48.4257871064468</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+						<BlendTrack Name="Crowd -6" ID="{B9BAF1B5-241E-4D36-B2C9-C22A98178A18}" ShortID="230034239">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{6BB9231E-5D6C-4379-9EAE-D1BBE6E10DEB}" ShortID="188587975">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Crowd_Hype" ID="{F07D1199-A16B-4AC3-81EB-0A87815A656C}" WorkUnitID="{52A5EB16-97B1-496A-A6B3-B68B24567827}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{28D21E74-C6C6-473B-AD9E-9E8A6F939FEA}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-100</XPos>
+														<YPos>-0.15651</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>-75.11244</XPos>
+														<YPos>-0.31589</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Exp2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>-25.0374812593703</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="LayerCrossFadeControlInput">
+									<ObjectRef Name="Crowd_Hype" ID="{F07D1199-A16B-4AC3-81EB-0A87815A656C}" WorkUnitID="{52A5EB16-97B1-496A-A6B3-B68B24567827}"/>
+								</Reference>
+							</ReferenceList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="Crowd Dec -6" ID="{9B97FA59-D032-4E71-983F-B1AE3D915E03}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>-100</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>-23.8380809595202</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+						<BlendTrack Name="Crowd -3" ID="{32DDA0F0-5094-4047-B031-EC906EEA0418}" ShortID="971180383">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{8DE184D4-3AC4-4C4E-9AA1-C4EF9267F5AF}" ShortID="815190242">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Crowd_Hype" ID="{F07D1199-A16B-4AC3-81EB-0A87815A656C}" WorkUnitID="{52A5EB16-97B1-496A-A6B3-B68B24567827}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{BB0A6506-1B3B-42CA-A7F4-5AD50195CF2A}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-100</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>-49.92504</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Exp2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>-1.04948</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="LayerCrossFadeControlInput">
+									<ObjectRef Name="Crowd_Hype" ID="{F07D1199-A16B-4AC3-81EB-0A87815A656C}" WorkUnitID="{52A5EB16-97B1-496A-A6B3-B68B24567827}"/>
+								</Reference>
+							</ReferenceList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="Crowd Dec -3" ID="{EF2E0FE0-FE6D-4544-9DE6-8F2A272CF00C}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>-100</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>-1.19055753624527</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+						<BlendTrack Name="Crowd 2" ID="{6D873CD3-A0B7-46D3-BC48-AD100648222B}" ShortID="212427795">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{05FD62C4-8765-4365-8E58-73F1A538B589}" ShortID="493744287">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Crowd_Hype" ID="{F07D1199-A16B-4AC3-81EB-0A87815A656C}" WorkUnitID="{52A5EB16-97B1-496A-A6B3-B68B24567827}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{70FC3DCF-7001-42D8-B280-9992304AFC61}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-100</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1.99484</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>25.20107</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="LayerCrossFadeControlInput">
+									<ObjectRef Name="Crowd_Hype" ID="{F07D1199-A16B-4AC3-81EB-0A87815A656C}" WorkUnitID="{52A5EB16-97B1-496A-A6B3-B68B24567827}"/>
+								</Reference>
+							</ReferenceList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="Crowd Hype 2" ID="{C061A66E-9582-43F4-B9AF-B3E92A47C71F}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>1.34932533733134</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>100</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+						<BlendTrack Name="Crowd GettingHyped" ID="{705C6AD0-CF83-4CD3-90BF-D9C84C91B389}" ShortID="802825292">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{CDEE8C03-A50B-46FD-A3FB-E59B875DCD9C}" ShortID="723691540">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Crowd_Hype" ID="{F07D1199-A16B-4AC3-81EB-0A87815A656C}" WorkUnitID="{52A5EB16-97B1-496A-A6B3-B68B24567827}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{2187FB6D-0EB1-4268-B5ED-2DE484AE6ABC}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-100</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>49.86495</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>74.79893</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="LayerCrossFadeControlInput">
+									<ObjectRef Name="Crowd_Hype" ID="{F07D1199-A16B-4AC3-81EB-0A87815A656C}" WorkUnitID="{52A5EB16-97B1-496A-A6B3-B68B24567827}"/>
+								</Reference>
+							</ReferenceList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="GettingHyped" ID="{3E0583E5-AF08-45A9-88B1-3548DF722243}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>48.3052039663814</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>100</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+						<BlendTrack Name="Crowd 6" ID="{7A5BCFFC-4792-446D-BEF9-DE8BED0B9DF9}" ShortID="914500232">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{CAE927AB-3154-4C49-99DD-6DBAD15D2DB5}" ShortID="179064116">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Crowd_Hype" ID="{F07D1199-A16B-4AC3-81EB-0A87815A656C}" WorkUnitID="{52A5EB16-97B1-496A-A6B3-B68B24567827}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{8B15E261-0208-483A-83A8-20E62C6547CB}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-100</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>6.43431</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>26.80964</XPos>
+														<YPos>-1.33894</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-1.33894</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="LayerCrossFadeControlInput">
+									<ObjectRef Name="Crowd_Hype" ID="{F07D1199-A16B-4AC3-81EB-0A87815A656C}" WorkUnitID="{52A5EB16-97B1-496A-A6B3-B68B24567827}"/>
+								</Reference>
+							</ReferenceList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="Crowd Hype 6" ID="{35CEFC71-4CBB-44F0-8DD1-F49F6A14624B}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>5.89812332439678</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>100</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+						<BlendTrack Name="Crowd 7" ID="{411C84E8-01DB-46D6-A2B8-FE05DD9476D5}" ShortID="79727515">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{B33D8E97-DD34-458C-83C5-172598801337}" ShortID="794004320">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Crowd_Hype" ID="{F07D1199-A16B-4AC3-81EB-0A87815A656C}" WorkUnitID="{52A5EB16-97B1-496A-A6B3-B68B24567827}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{8E30E0C9-1021-44DE-B4D1-13675B3DFF44}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-100</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>37.26542</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>62.46649</XPos>
+														<YPos>-2.0947</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-2.09471</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="LayerCrossFadeControlInput">
+									<ObjectRef Name="Crowd_Hype" ID="{F07D1199-A16B-4AC3-81EB-0A87815A656C}" WorkUnitID="{52A5EB16-97B1-496A-A6B3-B68B24567827}"/>
+								</Reference>
+							</ReferenceList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="Crowd Hype 7" ID="{B981B63A-6BF1-4A21-8E5E-9BACA2373118}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>36.9973190348526</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>100</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+						<BlendTrack Name="Crowd 8" ID="{8BB442C3-64FF-4F86-B2DF-8C1DD146272E}" ShortID="889324329">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{DAC0ED6B-D84A-4A83-A4D5-37FC3A74299E}" ShortID="316400371">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Crowd_Hype" ID="{F07D1199-A16B-4AC3-81EB-0A87815A656C}" WorkUnitID="{52A5EB16-97B1-496A-A6B3-B68B24567827}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{F271DF3E-4E8A-4EBB-9AB7-FAF7C525AAF8}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-100</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>50.13405</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>75.06702</XPos>
+														<YPos>-2.09471</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-2.09471</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="LayerCrossFadeControlInput">
+									<ObjectRef Name="Crowd_Hype" ID="{F07D1199-A16B-4AC3-81EB-0A87815A656C}" WorkUnitID="{52A5EB16-97B1-496A-A6B3-B68B24567827}"/>
+								</Reference>
+							</ReferenceList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="Crowd Hype 8" ID="{E07CBA52-E148-408E-B77E-004AA5CE3E3A}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>50.1340482573727</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>100</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+						<BlendTrack Name="Crowd 9" ID="{E94E8687-5692-492C-AEDE-624A39E2CC92}" ShortID="632930787">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{7FC6D7A5-931C-4CDD-B863-93CDAC0FE01C}" ShortID="162406752">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Crowd_Hype" ID="{F07D1199-A16B-4AC3-81EB-0A87815A656C}" WorkUnitID="{52A5EB16-97B1-496A-A6B3-B68B24567827}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{5FB15106-4D3C-46B3-96E9-9125C975CF14}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-100</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>61.3941</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>87.13137</XPos>
+														<YPos>3.59973</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>3.83771</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="LayerCrossFadeControlInput">
+									<ObjectRef Name="Crowd_Hype" ID="{F07D1199-A16B-4AC3-81EB-0A87815A656C}" WorkUnitID="{52A5EB16-97B1-496A-A6B3-B68B24567827}"/>
+								</Reference>
+							</ReferenceList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="Crowd Claps 9" ID="{D84D4A7A-D6E2-4058-8B38-E45A27A709FB}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>61.6621983914209</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>100</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+						<BlendTrack Name="Crowd 10" ID="{B0817318-D6F1-43FB-8988-ADAC378A0032}" ShortID="901285555">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{8AF22FC3-B088-4AF1-8735-6A6CE90E5AAC}" ShortID="922309399">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Crowd_Hype" ID="{F07D1199-A16B-4AC3-81EB-0A87815A656C}" WorkUnitID="{52A5EB16-97B1-496A-A6B3-B68B24567827}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{E795DD05-0E06-463C-AB40-6E9F16865452}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-100</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>74.79893</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-2.70809</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="LayerCrossFadeControlInput">
+									<ObjectRef Name="Crowd_Hype" ID="{F07D1199-A16B-4AC3-81EB-0A87815A656C}" WorkUnitID="{52A5EB16-97B1-496A-A6B3-B68B24567827}"/>
+								</Reference>
+							</ReferenceList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="Crowd Hype 10" ID="{FC956148-D20D-4E62-8255-75B18E8B134A}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>75.0670241286863</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>100</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+						<BlendTrack Name="Crowd 4" ID="{36A38AE4-6F30-4CF3-99CD-08EFF7E8AE19}" ShortID="767332857">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{B207D2CB-3AFA-4AAA-BA45-D8859970FAF6}" ShortID="27257399">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Crowd_Hype" ID="{F07D1199-A16B-4AC3-81EB-0A87815A656C}" WorkUnitID="{52A5EB16-97B1-496A-A6B3-B68B24567827}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{271501AE-1151-49FE-8CA9-E8A2B7F8164D}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-100</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>13.13673</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>38.33781</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>60.0536193029491</XPos>
+														<YPos>-0.125832205846877</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Exp2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>75.06702</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="LayerCrossFadeControlInput">
+									<ObjectRef Name="Crowd_Hype" ID="{F07D1199-A16B-4AC3-81EB-0A87815A656C}" WorkUnitID="{52A5EB16-97B1-496A-A6B3-B68B24567827}"/>
+								</Reference>
+							</ReferenceList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="Crowd Claps 4" ID="{3E685420-E433-4B4B-8798-6AD3AF6FBFF4}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>13.1367292225201</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>77.7479892761394</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+						<BlendTrack Name="Crowd Neutral" ID="{FF65F190-39E4-4B52-B5BB-5AD815C152CE}" ShortID="923288171">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{EAE772C8-230B-4E13-B176-732968B86882}" ShortID="825023892">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Crowd_Hype" ID="{F07D1199-A16B-4AC3-81EB-0A87815A656C}" WorkUnitID="{52A5EB16-97B1-496A-A6B3-B68B24567827}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{29BC142B-A9F4-4DBB-92E7-6C9BCE202E15}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-100</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>-50.40215</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>0.2681</XPos>
+														<YPos>-0.19214</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Exp2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>25.73727</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="LayerCrossFadeControlInput">
+									<ObjectRef Name="Crowd_Hype" ID="{F07D1199-A16B-4AC3-81EB-0A87815A656C}" WorkUnitID="{52A5EB16-97B1-496A-A6B3-B68B24567827}"/>
+								</Reference>
+							</ReferenceList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="Crowd Neutral" ID="{2F5568DB-9B2F-45F3-A6D9-6508D570A0C4}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>-51.2064343163539</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>25.7372654155496</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+					</BlendTrackList>
+				</BlendContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

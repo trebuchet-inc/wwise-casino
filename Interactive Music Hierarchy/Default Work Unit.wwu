@@ -7497,6 +7497,105 @@
 						</MusicPlaylistContainer>
 					</ChildrenList>
 				</Folder>
+				<MusicPlaylistContainer Name="Logo_Jingle" ID="{CFDB353E-1AFB-4094-9F0D-F9EA6B05F5B0}" ShortID="1009007319">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{985D7A0E-CF96-4485-9B21-F9417DD80606}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8D0D8FB9-AA69-43CB-85BE-3925EE7F5E00}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Scoring_LOGO_JoustingTime_Final" ID="{007BF78B-7C05-4E55-B133-09BD39C193B0}" ShortID="1019100270">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="6500"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{985D7A0E-CF96-4485-9B21-F9417DD80606}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8D0D8FB9-AA69-43CB-85BE-3925EE7F5E00}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Scoring_LOGO_JoustingTime_Final" ID="{962A8AD5-52C6-4987-9148-083698425664}" ShortID="257996677">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8D0D8FB9-AA69-43CB-85BE-3925EE7F5E00}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Scoring_LOGO_JoustingTime_Final" ID="{5DE3650B-8BEA-4B77-867E-E0A851949BE6}" ShortID="912310377">
+											<Language>SFX</Language>
+											<AudioFile>Scoring_LOGO_JoustingTime_Final.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{4609DF5C-A398-4B3D-B5D8-D7F4EA215430}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{3E7FDA6C-8BBA-442C-B964-766CEC6F760F}">
+											<ClipList>
+												<MusicClip Name="Scoring_LOGO_JoustingTime_Final" ID="{1AB2FCFB-8A39-4F2E-B562-E9FE1601A765}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="6500"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Scoring_LOGO_JoustingTime_Final" ID="{5DE3650B-8BEA-4B77-867E-E0A851949BE6}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{BECF42B3-EB59-448C-B641-220CBBABD65C}"/>
+								<MusicCue Name="Exit Cue" ID="{5BF01F0D-9D5D-4474-80AA-14E2BAEAEA28}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="6500"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{CB2AF6C8-0CEF-4FD2-8928-78FF725FADAD}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{523028A0-C042-4FDB-A901-BDB4B71E6304}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{BFB64CE1-587D-42EF-A589-320C1BF6AE4C}" ShortID="773431534">
+							<PropertyList>
+								<Property Name="PlayMode" Type="int16" Value="1"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{BB9C318A-721F-4792-A5ED-18CB911E26AC}" ShortID="88731134">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Scoring_LOGO_JoustingTime_Final" ID="{007BF78B-7C05-4E55-B133-09BD39C193B0}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>

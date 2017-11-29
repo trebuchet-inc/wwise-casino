@@ -647,6 +647,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Logo_Jingle" ID="{DBDF96BC-6CEA-4F07-815E-D7A13F6BACD9}">
+					<ChildrenList>
+						<Action Name="" ID="{FD36E84B-3A00-489A-9A79-8F231A96F669}" ShortID="478366740">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Logo_Jingle" ID="{CFDB353E-1AFB-4094-9F0D-F9EA6B05F5B0}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Crowd_Hype" ID="{410B7A2F-157A-4B7C-8682-AE4C35370DBB}">
+					<ChildrenList>
+						<Action Name="" ID="{ACAC1FD3-6EBB-42DE-A518-3A6763D3E911}" ShortID="1003708644">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crowd_Hype" ID="{EDED2FC6-7240-4A70-9C3C-61239CCEE718}" WorkUnitID="{84BC4D72-C464-45CF-A83C-75D8571D7AB4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Soundbank" ID="{873687F5-467C-4C34-B1D9-1BB75ED66008}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Logo_Jingle" ID="{CFDB353E-1AFB-4094-9F0D-F9EA6B05F5B0}" WorkUnitID="{3DF8A906-7CC2-4F78-8B30-9419249B6748}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_BattleMusic" ID="{14237233-8975-41E8-95A2-21BAB31CA3D4}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Weapon_Selected" ID="{D25228E3-53AF-429F-93A3-20AB3035F917}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Crowd_Surprise" ID="{5C4864D4-822E-4500-8510-BF6415D72EC7}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
@@ -18,7 +19,9 @@
 						<ObjectRef Name="Play_Players_Win" ID="{CFC34C8E-123E-4946-813E-E4A8482E7C88}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Intro_Annonceurs" ID="{E88C8D98-CF61-4961-8469-17E62583B877}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Crowd_GetHyped" ID="{B41195E9-258C-4A2E-872F-0A125A251347}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Crowd_Hype" ID="{EDED2FC6-7240-4A70-9C3C-61239CCEE718}" WorkUnitID="{84BC4D72-C464-45CF-A83C-75D8571D7AB4}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Lance_hit" ID="{1F8ABB51-E4DB-4AC6-AAA0-F1B69A8B6CD0}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Crowd_Hype" ID="{410B7A2F-157A-4B7C-8682-AE4C35370DBB}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Flail_miss" ID="{936975BC-7F58-4BD2-9885-A04F51BA0F46}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Crowds" ID="{DA956E60-D35E-4BE6-A376-71DAF628DE23}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Lance_miss" ID="{1CB1B625-3E65-4CCB-BD93-425659EC2750}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
@@ -28,6 +31,7 @@
 						<ObjectRef Name="Play_Axe_hit" ID="{2148E380-5A56-4EA6-BFDF-24B308E34FBA}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Ambiance" ID="{5F24F4B9-FF4A-4EB1-AECD-F872197008C6}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Crowd_Extatic" ID="{28A6A116-AA61-4EEC-B1C7-632E383458B1}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Logo_Jingle" ID="{DBDF96BC-6CEA-4F07-815E-D7A13F6BACD9}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Jingle_AllMiss" ID="{A5BBBB4E-25F1-4F6A-8873-F33DC1B721A0}" WorkUnitID="{98C15E8A-F134-44C6-8B6B-0F4C15C9B4A2}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
