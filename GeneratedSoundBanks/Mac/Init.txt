@@ -1,10 +1,14 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	1263061326	EndFight			\Default Work Unit\EndFight	
+	3508754124	Crowd_Fades			\Default Work Unit\Crowd_Fades	
 
 State	ID	Name	State Group			Notes
 	514064485	Fight	EndFight			
 	529726532	End	EndFight			
 	748895195	None	EndFight			
+	748895195	None	Crowd_Fades			
+	2077289708	Crowd_On	Crowd_Fades			
+	3454331530	Crowd_Off	Crowd_Fades			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	805203703	Master Secondary Bus			\Default Work Unit\Master Secondary Bus	

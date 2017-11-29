@@ -28,23 +28,31 @@
 				<Event Id="3293666249" Name="Play_Crowd_Deception" ObjectPath="\Events\Default Work Unit\Play_Crowd_Deception"/>
 				<Event Id="2618475426" Name="Play_Crowd_Extatic" ObjectPath="\Events\Default Work Unit\Play_Crowd_Extatic"/>
 				<Event Id="2757160520" Name="Play_Crowd_GetHyped" ObjectPath="\Events\Default Work Unit\Play_Crowd_GetHyped"/>
+				<Event Id="2235630056" Name="Play_Crowd_Hype" ObjectPath="\Events\Default Work Unit\Play_Crowd_Hype"/>
 				<Event Id="2846880533" Name="Play_Crowd_Surprise" ObjectPath="\Events\Default Work Unit\Play_Crowd_Surprise"/>
 				<Event Id="1413915552" Name="Play_Flail_hit" ObjectPath="\Events\Default Work Unit\Play_Flail_hit"/>
 				<Event Id="1092160905" Name="Play_Flail_miss" ObjectPath="\Events\Default Work Unit\Play_Flail_miss"/>
 				<Event Id="1605983305" Name="Play_Helm_Down" ObjectPath="\Events\Default Work Unit\Play_Helm_Down"/>
 				<Event Id="84185841" Name="Play_Horse_Rocking" ObjectPath="\Events\Default Work Unit\Play_Horse_Rocking"/>
+				<Event Id="593020281" Name="Play_Intro_Annonceurs" ObjectPath="\Events\Default Work Unit\Play_Intro_Annonceurs"/>
 				<Event Id="3223684645" Name="Play_Jingle_AllMiss" ObjectPath="\Events\Default Work Unit\Play_Jingle_AllMiss"/>
 				<Event Id="2606865948" Name="Play_Jingle_Start" ObjectPath="\Events\Default Work Unit\Play_Jingle_Start"/>
 				<Event Id="2513009785" Name="Play_Jingle_Success" ObjectPath="\Events\Default Work Unit\Play_Jingle_Success"/>
 				<Event Id="3574353209" Name="Play_Lance_hit" ObjectPath="\Events\Default Work Unit\Play_Lance_hit"/>
 				<Event Id="2977442550" Name="Play_Lance_miss" ObjectPath="\Events\Default Work Unit\Play_Lance_miss"/>
+				<Event Id="354113329" Name="Play_Logo_Jingle" ObjectPath="\Events\Default Work Unit\Play_Logo_Jingle"/>
 				<Event Id="2030803885" Name="Play_PlayerKilledTooSoon" ObjectPath="\Events\Default Work Unit\Play_PlayerKilledTooSoon"/>
+				<Event Id="1585422495" Name="Play_Players_Win" ObjectPath="\Events\Default Work Unit\Play_Players_Win"/>
 				<Event Id="1234332190" Name="Play_Weapon_Selected" ObjectPath="\Events\Default Work Unit\Play_Weapon_Selected"/>
 				<Event Id="2839405212" Name="Stop_Ambiance" ObjectPath="\Events\Default Work Unit\Stop_Ambiance"/>
 				<Event Id="3329728603" Name="Stop_BattleMusic" ObjectPath="\Events\Default Work Unit\Stop_BattleMusic"/>
 				<Event Id="2230898146" Name="Stop_Crowds" ObjectPath="\Events\Default Work Unit\Stop_Crowds"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="9100391" Language="SFX">
+					<ShortName>VOICE_StartingMatch.wav</ShortName>
+					<Path>SFX\VOICE_StartingMatch_F17FB28C.wem</Path>
+				</File>
 				<File Id="18916997" Language="SFX">
 					<ShortName>SFX_Lance_Hit_3.wav</ShortName>
 					<Path>SFX\SFX_Lance_Hit_3_F17FB28C.wem</Path>
@@ -53,13 +61,17 @@
 					<ShortName>Woodhorse_Rocking_4.wav</ShortName>
 					<Path>SFX\Woodhorse_Rocking_4_F17FB28C.wem</Path>
 				</File>
+				<File Id="61816042" Language="SFX">
+					<ShortName>Crowd GettingHyped Loop.wav</ShortName>
+					<Path>SFX\Crowd GettingHyped Loop_F17FB28C.wem</Path>
+				</File>
 				<File Id="62949915" Language="SFX">
 					<ShortName>Hastilude_Jingle_START.wav</ShortName>
 					<Path>SFX\Hastilude_Jingle_START_F17FB28C.wem</Path>
 				</File>
-				<File Id="93874347" Language="SFX">
-					<ShortName>SFX_Crowd_Surprise_1.wav</ShortName>
-					<Path>SFX\SFX_Crowd_Surprise_1_F17FB28C.wem</Path>
+				<File Id="107328895" Language="SFX">
+					<ShortName>VOICE_Jousted.wav</ShortName>
+					<Path>SFX\VOICE_Jousted_F17FB28C.wem</Path>
 				</File>
 				<File Id="115869636" Language="SFX">
 					<ShortName>SFX_Lance_Miss_3.wav</ShortName>
@@ -69,13 +81,33 @@
 					<ShortName>SFX_Axe_Throw_Hit_2.wav</ShortName>
 					<Path>SFX\SFX_Axe_Throw_Hit_2_F17FB28C.wem</Path>
 				</File>
+				<File Id="124737983" Language="SFX">
+					<ShortName>VOICE_PlayerHit_8.wav</ShortName>
+					<Path>SFX\VOICE_PlayerHit_8_F17FB28C.wem</Path>
+				</File>
 				<File Id="185087658" Language="SFX">
 					<ShortName>Ambiance_wind_1.wav</ShortName>
 					<Path>SFX\Ambiance_wind_1_F17FB28C.wem</Path>
 				</File>
-				<File Id="185430114" Language="SFX">
-					<ShortName>SFX_Crowd_GetHyped_Mod.wav</ShortName>
-					<Path>SFX\SFX_Crowd_GetHyped_Mod_F17FB28C.wem</Path>
+				<File Id="195489183" Language="SFX">
+					<ShortName>VOICE_PlayerHit.wav</ShortName>
+					<Path>SFX\VOICE_PlayerHit_F17FB28C.wem</Path>
+				</File>
+				<File Id="202046058" Language="SFX">
+					<ShortName>Crowd Neutral.wav</ShortName>
+					<Path>SFX\Crowd Neutral_F17FB28C.wem</Path>
+				</File>
+				<File Id="208148266" Language="SFX">
+					<ShortName>SFX_Crowd_Surprised_1.wav</ShortName>
+					<Path>SFX\SFX_Crowd_Surprised_1_F17FB28C.wem</Path>
+				</File>
+				<File Id="223151289" Language="SFX">
+					<ShortName>VOICE_PlayerHit_7.wav</ShortName>
+					<Path>SFX\VOICE_PlayerHit_7_F17FB28C.wem</Path>
+				</File>
+				<File Id="247029442" Language="SFX">
+					<ShortName>VOICE_PlayerMiss_3.wav</ShortName>
+					<Path>SFX\VOICE_PlayerMiss_3_F17FB28C.wem</Path>
 				</File>
 				<File Id="258714846" Language="SFX">
 					<ShortName>SFX_Flail_Miss_1.wav</ShortName>
@@ -89,17 +121,29 @@
 					<ShortName>Hastilude_Jingle_Success.wav</ShortName>
 					<Path>SFX\Hastilude_Jingle_Success_F17FB28C.wem</Path>
 				</File>
+				<File Id="270414834" Language="SFX">
+					<ShortName>VOICE_PlayerWins_6.wav</ShortName>
+					<Path>SFX\VOICE_PlayerWins_6_F17FB28C.wem</Path>
+				</File>
 				<File Id="271322153" Language="SFX">
 					<ShortName>Hastilude_Combat_4.wav</ShortName>
 					<Path>SFX\Hastilude_Combat_4_F17FB28C.wem</Path>
 				</File>
-				<File Id="275591250" Language="SFX">
-					<ShortName>SFX_Crowd_Surprise_5.wav</ShortName>
-					<Path>SFX\SFX_Crowd_Surprise_5_F17FB28C.wem</Path>
+				<File Id="272874309" Language="SFX">
+					<ShortName>VOICE_PlayerWins_1.wav</ShortName>
+					<Path>SFX\VOICE_PlayerWins_1_F17FB28C.wem</Path>
+				</File>
+				<File Id="277965991" Language="SFX">
+					<ShortName>VOICE_PlayerMiss_7.wav</ShortName>
+					<Path>SFX\VOICE_PlayerMiss_7_F17FB28C.wem</Path>
 				</File>
 				<File Id="288184757" Language="SFX">
 					<ShortName>SFX_Flail_Miss_2.wav</ShortName>
 					<Path>SFX\SFX_Flail_Miss_2_F17FB28C.wem</Path>
+				</File>
+				<File Id="288847186" Language="SFX">
+					<ShortName>VOICE_PlayerWins_5.wav</ShortName>
+					<Path>SFX\VOICE_PlayerWins_5_F17FB28C.wem</Path>
 				</File>
 				<File Id="292095061" Language="SFX">
 					<ShortName>SFX_WeaponSelect.wav</ShortName>
@@ -109,29 +153,45 @@
 					<ShortName>SFX_Flail_Hit_3.wav</ShortName>
 					<Path>SFX\SFX_Flail_Hit_3_F17FB28C.wem</Path>
 				</File>
-				<File Id="309279884" Language="SFX">
-					<ShortName>SFX_Crowd_Surprise_2.wav</ShortName>
-					<Path>SFX\SFX_Crowd_Surprise_2_F17FB28C.wem</Path>
+				<File Id="328456388" Language="SFX">
+					<ShortName>Crowd Hype 10.wav</ShortName>
+					<Path>SFX\Crowd Hype 10_F17FB28C.wem</Path>
 				</File>
 				<File Id="344332314" Language="SFX">
 					<ShortName>Hastilude_Jingle_AllMiss.wav</ShortName>
 					<Path>SFX\Hastilude_Jingle_AllMiss_F17FB28C.wem</Path>
 				</File>
+				<File Id="382243232" Language="SFX">
+					<ShortName>Crowd Dec -6.wav</ShortName>
+					<Path>SFX\Crowd Dec -6_F17FB28C.wem</Path>
+				</File>
+				<File Id="404429421" Language="SFX">
+					<ShortName>Crowd Dec -3.wav</ShortName>
+					<Path>SFX\Crowd Dec -3_F17FB28C.wem</Path>
+				</File>
+				<File Id="404592289" Language="SFX">
+					<ShortName>VOICE_PlayerMiss_2.wav</ShortName>
+					<Path>SFX\VOICE_PlayerMiss_2_F17FB28C.wem</Path>
+				</File>
 				<File Id="413104383" Language="SFX">
 					<ShortName>SFX_Flail_Hit_1.wav</ShortName>
 					<Path>SFX\SFX_Flail_Hit_1_F17FB28C.wem</Path>
+				</File>
+				<File Id="414015656" Language="SFX">
+					<ShortName>VOICE_PlayerMiss_8.wav</ShortName>
+					<Path>SFX\VOICE_PlayerMiss_8_F17FB28C.wem</Path>
 				</File>
 				<File Id="423198057" Language="SFX">
 					<ShortName>SFX_Axe_Throw_Miss_3.wav</ShortName>
 					<Path>SFX\SFX_Axe_Throw_Miss_3_F17FB28C.wem</Path>
 				</File>
+				<File Id="446075049" Language="SFX">
+					<ShortName>VOICE_PlayerMiss_1.wav</ShortName>
+					<Path>SFX\VOICE_PlayerMiss_1_F17FB28C.wem</Path>
+				</File>
 				<File Id="446522076" Language="SFX">
 					<ShortName>Woodhorse_Rocking_2.wav</ShortName>
 					<Path>SFX\Woodhorse_Rocking_2_F17FB28C.wem</Path>
-				</File>
-				<File Id="465655057" Language="SFX">
-					<ShortName>SFX_Crowd_Deception_Mod.wav</ShortName>
-					<Path>SFX\SFX_Crowd_Deception_Mod_F17FB28C.wem</Path>
 				</File>
 				<File Id="468092593" Language="SFX">
 					<ShortName>SFX_Lance_Hit_4.wav</ShortName>
@@ -141,9 +201,9 @@
 					<ShortName>Hastilude_Combat_2.wav</ShortName>
 					<Path>SFX\Hastilude_Combat_2_F17FB28C.wem</Path>
 				</File>
-				<File Id="483608939" Language="SFX">
-					<ShortName>SFX_Crowd_Surprise_4.wav</ShortName>
-					<Path>SFX\SFX_Crowd_Surprise_4_F17FB28C.wem</Path>
+				<File Id="475046156" Language="SFX">
+					<ShortName>SFX_Crowd_Surprised_3.wav</ShortName>
+					<Path>SFX\SFX_Crowd_Surprised_3_F17FB28C.wem</Path>
 				</File>
 				<File Id="494438839" Language="SFX">
 					<ShortName>Ambiance_Flag_2.wav</ShortName>
@@ -157,17 +217,41 @@
 					<ShortName>SFX_Flail_Hit_2.wav</ShortName>
 					<Path>SFX\SFX_Flail_Hit_2_F17FB28C.wem</Path>
 				</File>
+				<File Id="522416511" Language="SFX">
+					<ShortName>Crowd Claps 9.wav</ShortName>
+					<Path>SFX\Crowd Claps 9_F17FB28C.wem</Path>
+				</File>
 				<File Id="523556551" Language="SFX">
 					<ShortName>SFX_Axe_Throw_Miss_2.wav</ShortName>
 					<Path>SFX\SFX_Axe_Throw_Miss_2_F17FB28C.wem</Path>
+				</File>
+				<File Id="532976613" Language="SFX">
+					<ShortName>VOICE_PlayerHit_4.wav</ShortName>
+					<Path>SFX\VOICE_PlayerHit_4_F17FB28C.wem</Path>
+				</File>
+				<File Id="537416735" Language="SFX">
+					<ShortName>SFX_Crowd_GetHyped_2.wav</ShortName>
+					<Path>SFX\SFX_Crowd_GetHyped_2_F17FB28C.wem</Path>
+				</File>
+				<File Id="538215728" Language="SFX">
+					<ShortName>VOICE_PlayerWins_2.wav</ShortName>
+					<Path>SFX\VOICE_PlayerWins_2_F17FB28C.wem</Path>
+				</File>
+				<File Id="541973219" Language="SFX">
+					<ShortName>VOICE_PlayerWins_3.wav</ShortName>
+					<Path>SFX\VOICE_PlayerWins_3_F17FB28C.wem</Path>
+				</File>
+				<File Id="567253384" Language="SFX">
+					<ShortName>Crowd Hype 8.wav</ShortName>
+					<Path>SFX\Crowd Hype 8_F17FB28C.wem</Path>
 				</File>
 				<File Id="576459463" Language="SFX">
 					<ShortName>SFX_Crowd_Extatic_Mod.wav</ShortName>
 					<Path>SFX\SFX_Crowd_Extatic_Mod_F17FB28C.wem</Path>
 				</File>
-				<File Id="610349233" Language="SFX">
-					<ShortName>SFX_Crowd_Surprise_3.wav</ShortName>
-					<Path>SFX\SFX_Crowd_Surprise_3_F17FB28C.wem</Path>
+				<File Id="611309865" Language="SFX">
+					<ShortName>Crowd Claps 4.wav</ShortName>
+					<Path>SFX\Crowd Claps 4_F17FB28C.wem</Path>
 				</File>
 				<File Id="624092242" Language="SFX">
 					<ShortName>Ambiance_Flag_1.wav</ShortName>
@@ -177,9 +261,17 @@
 					<ShortName>SFX_Lance_Hit_2.wav</ShortName>
 					<Path>SFX\SFX_Lance_Hit_2_F17FB28C.wem</Path>
 				</File>
+				<File Id="643192258" Language="SFX">
+					<ShortName>VOICE_Intro_Annonceurs.wav</ShortName>
+					<Path>SFX\VOICE_Intro_Annonceurs_F17FB28C.wem</Path>
+				</File>
 				<File Id="671841139" Language="SFX">
 					<ShortName>SFX_Lance_Miss_1.wav</ShortName>
 					<Path>SFX\SFX_Lance_Miss_1_F17FB28C.wem</Path>
+				</File>
+				<File Id="697336468" Language="SFX">
+					<ShortName>Crowd Hype 7.wav</ShortName>
+					<Path>SFX\Crowd Hype 7_F17FB28C.wem</Path>
 				</File>
 				<File Id="712800593" Language="SFX">
 					<ShortName>Woodhorse_Rocking_1.wav</ShortName>
@@ -205,17 +297,61 @@
 					<ShortName>Hastilude_Combat_1.wav</ShortName>
 					<Path>SFX\Hastilude_Combat_1_F17FB28C.wem</Path>
 				</File>
+				<File Id="750680660" Language="SFX">
+					<ShortName>VOICE_PlayerHit_6.wav</ShortName>
+					<Path>SFX\VOICE_PlayerHit_6_F17FB28C.wem</Path>
+				</File>
 				<File Id="769109219" Language="SFX">
 					<ShortName>SFX_Axe_Throw_Hit_3.wav</ShortName>
 					<Path>SFX\SFX_Axe_Throw_Hit_3_F17FB28C.wem</Path>
+				</File>
+				<File Id="811896666" Language="SFX">
+					<ShortName>Crowd GettingHyped Intro.wav</ShortName>
+					<Path>SFX\Crowd GettingHyped Intro_1C9C67B2.wem</Path>
+				</File>
+				<File Id="818020578" Language="SFX">
+					<ShortName>VOICE_PlayerMiss_4.wav</ShortName>
+					<Path>SFX\VOICE_PlayerMiss_4_F17FB28C.wem</Path>
 				</File>
 				<File Id="819325022" Language="SFX">
 					<ShortName>Ambiance_Park_1.wav</ShortName>
 					<Path>SFX\Ambiance_Park_1_F17FB28C.wem</Path>
 				</File>
+				<File Id="848276677" Language="SFX">
+					<ShortName>Crowd Hype 2.wav</ShortName>
+					<Path>SFX\Crowd Hype 2_F17FB28C.wem</Path>
+				</File>
+				<File Id="873134968" Language="SFX">
+					<ShortName>VOICE_PlayerHit_3.wav</ShortName>
+					<Path>SFX\VOICE_PlayerHit_3_F17FB28C.wem</Path>
+				</File>
+				<File Id="876601222" Language="SFX">
+					<ShortName>VOICE_PlayerMiss_6.wav</ShortName>
+					<Path>SFX\VOICE_PlayerMiss_6_F17FB28C.wem</Path>
+				</File>
 				<File Id="898647358" Language="SFX">
 					<ShortName>SFX_Lance_Hit_1.wav</ShortName>
 					<Path>SFX\SFX_Lance_Hit_1_F17FB28C.wem</Path>
+				</File>
+				<File Id="911424740" Language="SFX">
+					<ShortName>SFX_Crowd_Surprised_2.wav</ShortName>
+					<Path>SFX\SFX_Crowd_Surprised_2_F17FB28C.wem</Path>
+				</File>
+				<File Id="912310377" Language="SFX">
+					<ShortName>Scoring_LOGO_JoustingTime_Final.wav</ShortName>
+					<Path>SFX\Scoring_LOGO_JoustingTime_Final_F17FB28C.wem</Path>
+				</File>
+				<File Id="923575010" Language="SFX">
+					<ShortName>VOICE_PlayerHit_2.wav</ShortName>
+					<Path>SFX\VOICE_PlayerHit_2_F17FB28C.wem</Path>
+				</File>
+				<File Id="963270510" Language="SFX">
+					<ShortName>VOICE_PlayerWins_4.wav</ShortName>
+					<Path>SFX\VOICE_PlayerWins_4_F17FB28C.wem</Path>
+				</File>
+				<File Id="970247574" Language="SFX">
+					<ShortName>Crowd Hype 6.wav</ShortName>
+					<Path>SFX\Crowd Hype 6_F17FB28C.wem</Path>
 				</File>
 				<File Id="985389615" Language="SFX">
 					<ShortName>SFX_Helm_Down.wav</ShortName>
@@ -225,6 +361,14 @@
 					<ShortName>Ambiance_bird_1.wav</ShortName>
 					<Path>SFX\Ambiance_bird_1_F17FB28C.wem</Path>
 				</File>
+				<File Id="991762372" Language="SFX">
+					<ShortName>VOICE_PlayerMiss_5.wav</ShortName>
+					<Path>SFX\VOICE_PlayerMiss_5_F17FB28C.wem</Path>
+				</File>
+				<File Id="998491974" Language="SFX">
+					<ShortName>SFX_Crowd_Deception_2.wav</ShortName>
+					<Path>SFX\SFX_Crowd_Deception_2_F17FB28C.wem</Path>
+				</File>
 				<File Id="1009987633" Language="SFX">
 					<ShortName>SFX_BirdsFlyAway.wav</ShortName>
 					<Path>SFX\SFX_BirdsFlyAway_F17FB28C.wem</Path>
@@ -232,6 +376,14 @@
 				<File Id="1025398509" Language="SFX">
 					<ShortName>Ambiance_Male_Crowd_1.wav</ShortName>
 					<Path>SFX\Ambiance_Male_Crowd_1_F17FB28C.wem</Path>
+				</File>
+				<File Id="1031579701" Language="SFX">
+					<ShortName>Crowd Dec -10.wav</ShortName>
+					<Path>SFX\Crowd Dec -10_F17FB28C.wem</Path>
+				</File>
+				<File Id="1051457668" Language="SFX">
+					<ShortName>SFX_jingle_EndGame.wav</ShortName>
+					<Path>SFX\SFX_jingle_EndGame_F17FB28C.wem</Path>
 				</File>
 				<File Id="1064535506" Language="SFX">
 					<ShortName>SFX_Axe_Throw_Miss_1.wav</ShortName>
