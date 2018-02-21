@@ -607,6 +607,23 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{BEEAD66E-1742-4B9E-BEBC-CB05ABFB7149}" ShortID="434352805">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="1">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{3731DDBF-C6A4-4B75-82AD-2449BC0C9FA5}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Commentateurs" ID="{7F11A985-D700-4D34-9947-B665FDD4DCD8}" WorkUnitID="{84BC4D72-C464-45CF-A83C-75D8571D7AB4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Intro_Annonceurs" ID="{E88C8D98-CF61-4961-8469-17E62583B877}">
